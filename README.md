@@ -82,13 +82,11 @@ Dưới đây là bức ảnh tổng quan về hiệu suất bán hàng và doan
 
 #### 1. Tổng doanh thu của Olist là bao nhiêu? Doanh thu thay đổi như thế nào theo thời gian? Có giai đoạn nào đột biến hay suy giảm rõ rệt không?
 Tổng doanh thu của cửa hàng thương mại điện tử Olist từ tháng 9 năm 2016 đến tháng 9 năm 2018 là ***R$15.422.461,77***. Con số này được tính bằng cách lấy tổng Payment_value của các đơn hàng có trạng thái "delivered" (vì chỉ khi đơn hàng được giao thành công tới khách hàng thì doanh thu của đơn hàng mới được ghi nhận), sử dụng công thức DAX như bên dưới:
+```dax
+Total Revenue = 
+    CALCULATE(
+        SUM(olist_order_payments[payment_value]),
+        olist_orders[order_status] = "delivered"
+    )```
 
-Từ năm 2016 đến 2019, doanh thu của Olist có xu hướng tăng dần qua từng năm, đặc biệt ghi nhận mức tăng trưởng mạnh trong giai đoạn 2016-2017.
-
-<img width="493" alt="Ảnh màn hình 2025-03-18 lúc 16 24 30" src="https://github.com/user-attachments/assets/5d7da1d0-ada7-4794-aec5-1edb714f04e5" />
-
-  
-2. Số lượng đơn hàng được đặt trên Olist mỗi tháng? Có biến động theo mùa hay xu hướng nào đáng chú ý không?
-4. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng so sánh như thế nào? Có danh mục nào tiềm năng nhưng chưa được khai thác triệt để không?
-5. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Chỉ số này thay đổi như thế nào theo danh mục sản phẩm và phương thức thanh toán? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
 
