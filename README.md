@@ -120,7 +120,7 @@ Biểu đồ dưới cho thấy doanh thu có sự tăng đột biến vào ngà
 ![Ảnh chụp màn hình 2025-03-18 192717](https://github.com/user-attachments/assets/f4704c02-1cb4-40a9-9945-9c571aec474a)
 
 #### 2. Số lượng đơn hàng được đặt trên Olist mỗi tháng? Có biến động theo mùa hay xu hướng nào đáng chú ý không?
-Success Order được định nghĩa bằng công thức
+Trong giai đoạn 2016-2019, Olist có tổng cộng 99,44K đơn đặt hàng. Các đơn đã được đặt hàng thành công và hoàn thành giao cho khách hàng (Success Order) có tổng cộng 96K đơn hàng, và được định nghĩa bởi công thức:
 
 ```dax
 Success Order = 
@@ -130,12 +130,27 @@ CALCULATE(
 )
 ```
 
-Trong hình có tổng cộng , nhưng chỉ có 96k sucesss order
 ![Ảnh chụp màn hình 2025-03-18 200051](https://github.com/user-attachments/assets/785420e7-f898-4fee-95fd-0520f6bfe8d4)
 
-Tổng cộng có 625 đơn hàng bị hủy. Đơn hàng bị hủy cao bất thường ngày
+Tổng cộng có 625 đơn hàng bị hủy trong giai đoạn 2016-2019. Số lượng đơn hủy tăng dần từ 2016, đạt đỉnh vào tháng 8/2017 (84 đơn) và tháng 2/2018 (73 đơn), cho thấy có thể có vấn đề về vận hành, chính sách bán hàng hoặc dịch vụ khách hàng. Sau đó, số hủy giảm nhưng vẫn dao động ở mức 18 - 41 đơn/tháng. Một số tháng như 4/2017 và 9/2017 có mức hủy thấp bất thường, có thể do ít chương trình khuyến mãi hoặc cải thiện dịch vụ. Cần phân tích nguyên nhân hủy đơn trong giai đoạn cao điểm và so sánh với tổng số đơn đặt để tối ưu chính sách bán hàng và trải nghiệm khách hàng.
 ![Ảnh chụp màn hình 2025-03-18 200315](https://github.com/user-attachments/assets/3563d7da-bebb-48da-866a-4da70e2adcf0)
 
 #### 3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng so sánh như thế nào? Có danh mục nào tiềm năng nhưng chưa được khai thác triệt để không?
-#### 4. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Chỉ số này thay đổi như thế nào theo danh mục sản phẩm và phương thức thanh toán? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
+Biểu đồ cho thấy sự chênh lệch giữa số lượng đơn hàng và tổng doanh thu theo danh mục sản phẩm. Một số danh mục như *bed_bath_table* và *health_beauty* có số lượng đơn cao trong top nhưng doanh thu không tương ứng, cho thấy giá trị trung bình mỗi đơn thấp. Ngược lại, các danh mục như *watches_gifts* và *cool_stuff* có doanh thu cao dù số lượng đơn ít hơn, cho thấy đây là các sản phẩm có giá trị cao. Như vậy, để tối ưu danh mục có đơn hàng cao nhưng doanh thu thấp, Olist có thể cân nhắc tập trung tăng giá trị trung bình mỗi đơn bằng chiến lược upsell/cross-sell. Đồng thời, với các danh mục có doanh thu cao nhưng số lượng đơn ít, nên đẩy mạnh marketing để thu hút thêm khách hàng, từ đó cân bằng giữa số lượng đơn hàng và tổng doanh thu.
 
+![Ảnh chụp màn hình 2025-03-18 230134](https://github.com/user-attachments/assets/68bf9239-a7e6-48c4-ac2b-89e56474a954)
+
+#### 4. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Chỉ số này thay đổi như thế nào theo danh mục sản phẩm và phương thức thanh toán? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
+Giá trị một đơn hàng trung bình của Olist là R$ 159.85, và được tính theo công thức dưới đây:
+```dax
+Average Order Value = 
+                  DIVIDE ([Total Revenue], 
+                      CALCULATE(COUNTROWS('olist_orders_dataset'), 
+                         olist_orders_dataset[order_status] IN {"delivered"})
+```
+
+![Ảnh chụp màn hình 2025-03-18 225233](https://github.com/user-attachments/assets/08dd5e10-afb2-4e67-8267-28ad678c97ef)
+
+Biểu đồ cho thấy *computers* có giá trị đơn hàng trung bình cao nhất (R$ 1.300,8), gần gấp đôi so với danh mục thứ hai (*small_appliances* – R$ 684,3), cho thấy đây là mặt hàng có giá trị cao và đóng góp lớn vào doanh thu dù số lượng đơn có thể không nhiều. Tuy nhiên, phần lớn các danh mục còn lại có giá trị đơn hàng trung bình dao động từ R$ 200 - R$ 500, đặc biệt nhóm nội thất và gia dụng như *furniture_living* có giá trị trung bình thấp nhất (R$ 211,6), cho thấy khách hàng có thể mua lẻ thay vì theo bộ. Do đó, cần đẩy mạnh các danh mục có giá trị đơn hàng cao bằng cách tối ưu trải nghiệm mua sắm và tạo chương trình ưu đãi, đồng thời áp dụng chiến lược *bundling* hoặc upsell/cross-sell để tăng giá trị đơn hàng ở các danh mục thấp, từ đó tối ưu doanh thu và lợi nhuận.
+
+![Ảnh chụp màn hình 2025-03-18 225739](https://github.com/user-attachments/assets/2704741e-9a20-4566-867c-9f30a93133d6)
