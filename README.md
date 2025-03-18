@@ -120,6 +120,22 @@ Biểu đồ dưới cho thấy doanh thu có sự tăng đột biến vào ngà
 ![Ảnh chụp màn hình 2025-03-18 192717](https://github.com/user-attachments/assets/f4704c02-1cb4-40a9-9945-9c571aec474a)
 
 #### 2. Số lượng đơn hàng được đặt trên Olist mỗi tháng? Có biến động theo mùa hay xu hướng nào đáng chú ý không?
+Success Order được định nghĩa bằng công thức
+
+```dax
+Success Order = 
+CALCULATE(
+    COUNT('olist_orders_dataset'[order_id]), 
+    'olist_orders_dataset'[order_status] = "delivered"
+)
+```
+
+Trong hình có tổng cộng , nhưng chỉ có 96k sucesss order
+![Ảnh chụp màn hình 2025-03-18 200051](https://github.com/user-attachments/assets/785420e7-f898-4fee-95fd-0520f6bfe8d4)
+
+Tổng cộng có 625 đơn hàng bị hủy. Đơn hàng bị hủy cao bất thường ngày
+![Ảnh chụp màn hình 2025-03-18 200315](https://github.com/user-attachments/assets/3563d7da-bebb-48da-866a-4da70e2adcf0)
+
 #### 3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng so sánh như thế nào? Có danh mục nào tiềm năng nhưng chưa được khai thác triệt để không?
 #### 4. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Chỉ số này thay đổi như thế nào theo danh mục sản phẩm và phương thức thanh toán? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
 
