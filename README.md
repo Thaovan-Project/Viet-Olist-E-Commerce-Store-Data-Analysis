@@ -59,6 +59,22 @@ Dữ liệu được chuẩn hóa và xây dựng theo mô hình Star Schema, ba
 - 6 bảng Dimension: Olist_customers, Olist_geolocation, Olist_order_payments, Olist_order_reviews, Olist_products, Olist_sellers mô tả chi tiết khách hàng, sản phẩm, người bán, đánh giá và thanh toán.
 - Bảng Date: Tạo bằng query sau:
 
+```dax
+Date = 
+VAR FirstSalesDate = MIN(olist_orders_dataset[order_purchase_timestamp.1])
+VAR YearFirstOrder = YEAR(FirstSalesDate)
+VAR Dates = 
+ FILTER(CALENDARAUTO(),YEAR([Date]) >= YearFirstOrder) RETURN
+    ADDCOLUMNS(
+        Dates,
+        "Year", YEAR([Date]),
+        "Month", FORMAT([Date], "mmm"),
+        "Month Number", MONTH([Date]),
+        "Quarter", FORMAT([Date], "\QQ"),
+        "Day of Week", FORMAT([Date], "ddd"),
+        "WeekDayNumber", WEEKDAY([Date]))
+```
+
 Mối quan hệ giữa các bảng:
 
 Olist_order_items kết nối với:
@@ -82,11 +98,28 @@ Dưới đây là bức ảnh tổng quan về hiệu suất bán hàng và doan
 
 #### 1. Tổng doanh thu của Olist là bao nhiêu? Doanh thu thay đổi như thế nào theo thời gian? Có giai đoạn nào đột biến hay suy giảm rõ rệt không?
 Tổng doanh thu của cửa hàng thương mại điện tử Olist từ tháng 9 năm 2016 đến tháng 9 năm 2018 là ***R$15.422.461,77***. Con số này được tính bằng cách lấy tổng Payment_value của các đơn hàng có trạng thái "delivered" (vì chỉ khi đơn hàng được giao thành công tới khách hàng thì doanh thu của đơn hàng mới được ghi nhận), sử dụng công thức DAX như bên dưới:
+
 ```dax
 Total Revenue = 
     CALCULATE(
         SUM(olist_order_payments[payment_value]),
         olist_orders[order_status] = "delivered"
-    )```
+    )
+```
 
+
+Từ năm 2016 đến 2019, doanh thu của Olist có xu hướng tăng dần qua từng năm, đặc biệt ghi nhận mức tăng trưởng mạnh trong giai đoạn 2016-2017.
+
+
+<img width="493" alt="Ảnh màn hình 2025-03-18 lúc 16 24 30" src="https://github.com/user-attachments/assets/5d7da1d0-ada7-4794-aec5-1edb714f04e5" />
+
+
+Biểu đồ dưới cho thấy doanh thu có sự tăng đột biến vào ngày 24/11/2017, đạt **R$175K**, nhiều khả năng do Black Friday hoặc một chương trình khuyến mãi lớn. Ngay sau đó, doanh thu giảm mạnh và quay về mức ổn định quanh **R$50K - R$60K**, cho thấy đây chỉ là sự tăng trưởng ngắn hạn. Trừ giai đoạn tăng vọt vào cuối năm 2017 trên, doanh thu thường dao động quanh mức R$50K - R$60K, cho thấy thị trường không có sự tăng trưởng đột phá.  Điều này chỉ ra rằng các chiến dịch khuyến mãi có thể tạo hiệu ứng tốt trong ngắn hạn, nhưng cần chiến lược giữ chân khách hàng để đảm bảo khả năng tăng trưởng được bền vững.
+
+
+![Ảnh chụp màn hình 2025-03-18 192717](https://github.com/user-attachments/assets/f4704c02-1cb4-40a9-9945-9c571aec474a)
+
+#### 2. Số lượng đơn hàng được đặt trên Olist mỗi tháng? Có biến động theo mùa hay xu hướng nào đáng chú ý không?
+#### 3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng so sánh như thế nào? Có danh mục nào tiềm năng nhưng chưa được khai thác triệt để không?
+#### 4. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Chỉ số này thay đổi như thế nào theo danh mục sản phẩm và phương thức thanh toán? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
 
