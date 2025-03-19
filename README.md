@@ -166,7 +166,20 @@ Biểu đồ cho thấy *computers* có giá trị đơn hàng trung bình cao n
 <img width="380" alt="Ảnh màn hình 2025-03-19 lúc 09 14 26" src="https://github.com/user-attachments/assets/e59dcaaa-5cce-4952-be17-dfc4c47d983f" />
 
 #### 2. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
+
 <img width="242" alt="Ảnh màn hình 2025-03-19 lúc 09 40 23" src="https://github.com/user-attachments/assets/7ba2ea81-28ca-4b24-86c7-4a86dc6c0d92" />
+
+Dựa trên hai biểu đồ trên, có thể thấy rõ rằng thời gian giao hàng là yếu tố tác động trực tiếp đến trải nghiệm khách hàng và điểm đánh giá.
+
+Biểu đồ đầu tiên cho thấy một mối quan hệ nghịch đảo giữa thời gian giao hàng trung bình và điểm đánh giá. Cụ thể, những đơn hàng có thời gian giao lâu nhất (21.25 ngày) chỉ nhận được điểm đánh giá trung bình là 1, trong khi những đơn hàng được giao nhanh hơn (10.62 ngày) lại đạt điểm đánh giá 5. Điều này phản ánh rõ ràng rằng khách hàng càng được phục vụ nhanh chóng, họ càng hài lòng và đánh giá cao.
+
+Xuyên suốt từ năm 2016 đến năm 2018, có thể nhận thấy nỗ lực tối ưu hóa vận hành của Olist để cải thiện thời gian giao hàng và nâng cao trải nghiệm khách hàng.
+
+Ở giai đoạn đầu tiên (Q3 2016), thời gian giao hàng lên đến 55 ngày, dẫn đến điểm đánh giá cực kỳ thấp, chỉ đạt 1.00 điểm. Tuy nhiên, nhờ sự cải tiến liên tục, đến Q4 2018, thời gian giao hàng đã giảm xuống 2.25 ngày, trong khi điểm đánh giá tăng đáng kể lên 4.26 — gần chạm ngưỡng lý tưởng 5.0 điểm. Đây là minh chứng rõ ràng cho thấy việc rút ngắn thời gian giao hàng không chỉ giúp Olist cải thiện hiệu suất vận hành, mà còn xây dựng được lòng tin và sự hài lòng từ phía khách hàng.
+
+Tuy nhiên, không phải toàn bộ quá trình đều diễn ra thuận lợi. Năm 2017 đánh dấu một giai đoạn có sự biến động, mặc dù thời gian giao hàng đã giảm đáng kể (xuống khoảng 11-14 ngày), nhưng điểm đánh giá vẫn chỉ dao động quanh mức 4.0 - 4.12 điểm và không tăng trưởng đáng kể. Điều này cho thấy, bên cạnh việc rút ngắn thời gian giao hàng, chất lượng sản phẩm và dịch vụ cũng là yếu tố quan trọng để cải thiện sự hài lòng toàn diện của khách hàng
+
+Như vậy có thể thấy rằng, thời gian giao hàng nhanh là yếu tố hàng đầu tác động đến điểm đánh giá. Vì vậy, Olist cần tiếp tục đầu tư vào cải thiện chuỗi cung ứng, nâng cấp hệ thống logistics và hợp tác với các đơn vị vận chuyển hiệu quả. Tuy nhiên, cũng phải để ý rằng năm 2017 là minh chứng cho việc giao hàng nhanh không đồng nghĩa với việc khách hàng hoàn toàn hài lòng. Olist cần đảm bảo rằng sản phẩm đúng mô tả, đóng gói cẩn thận và dịch vụ khách hàng chuyên nghiệp để giữ vững điểm đánh giá.
 
 #### 3. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
 <img width="322" alt="Ảnh màn hình 2025-03-19 lúc 09 15 02" src="https://github.com/user-attachments/assets/603c170e-5b38-451b-8e76-3fa0dea830a4" />
