@@ -184,6 +184,16 @@ Như vậy có thể thấy rằng, thời gian giao hàng nhanh là yếu tố 
 #### 3. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
 <img width="322" alt="Ảnh màn hình 2025-03-19 lúc 09 15 02" src="https://github.com/user-attachments/assets/603c170e-5b38-451b-8e76-3fa0dea830a4" />
 
+Dựa trên biểu đồ "Orders Count by Geolocation City and Payment Type", có thể thấy Sao Paulo là thành phố dẫn đầu vượt trội về số lượng đơn hàng so với các khu vực còn lại. Điều này cho thấy đây là thị trường trọng điểm, đóng góp phần lớn vào doanh số của doanh nghiệp. Việc tập trung tối ưu hóa logistics, triển khai chiến dịch khuyến mãi hoặc cá nhân hóa trải nghiệm người dùng tại Sao Paulo sẽ giúp doanh nghiệp khai thác tối đa tiềm năng tại khu vực này.
+
+Bên cạnh đó, thẻ tín dụng (credit_card) đang chiếm ưu thế rõ rệt trong phương thức thanh toán, đặc biệt là ở các thành phố lớn như Sao Paulo và Rio de Janeiro. Xu hướng này phản ánh hành vi tiêu dùng hiện đại, nơi khách hàng ưu tiên sự tiện lợi và linh hoạt. Doanh nghiệp nên tận dụng điều này bằng cách triển khai các chương trình ưu đãi, hoàn tiền hoặc tích điểm khi thanh toán bằng thẻ tín dụng, từ đó thúc đẩy thêm doanh số và tăng mức độ gắn bó của khách hàng.
+
+Tuy nhiên, không thể bỏ qua "boleto" – phương thức thanh toán truyền thống vẫn chiếm tỷ trọng nhất định, đặc biệt là ở Sao Paulo. Điều này cho thấy một nhóm khách hàng vẫn giữ thói quen sử dụng phương thức thanh toán này, có thể do tâm lý muốn kiểm soát chi tiêu hoặc chưa quen với các hình thức thanh toán điện tử. Để không mất đi nhóm khách hàng này, doanh nghiệp nên cân nhắc giữ lại và đơn giản hóa quy trình thanh toán bằng boleto, đồng thời truyền thông rõ ràng về các lợi ích, độ an toàn của các phương thức hiện đại để từng bước thay đổi hành vi tiêu dùng.
+
+Ngoài ra, Rio de Janeiro và Belo Horizonte cũng nổi lên như hai thị trường tiềm năng với lượng đơn hàng đáng kể chỉ đứng sau Sao Paulo. Doanh nghiệp có thể mở rộng thêm hoạt động marketing, khuyến mãi hoặc cải thiện dịch vụ giao hàng tại hai thành phố này để chiếm lĩnh thị phần. Những khu vực khác như Curitiba, Brasilia và Campinas tuy có lượng đơn hàng thấp hơn nhưng không nên bỏ qua, bởi đây có thể là những "ngôi sao đang lên" nếu doanh nghiệp biết cách tiếp cận đúng đối tượng và giải quyết các rào cản về chi phí vận chuyển hoặc tốc độ giao hàng.
+
+Như vậy, để tối ưu hóa hoạt động kinh doanh, doanh nghiệp cần có chiến lược tập trung vào ba hướng chính: tối đa hóa thị phần tại Sao Paulo, thúc đẩy xu hướng thanh toán qua thẻ tín dụng để bắt kịp hành vi tiêu dùng hiện đại, và mở rộng khai thác các thị trường tiềm năng như Rio de Janeiro, Belo Horizonte và những thành phố mới nổi khác. Một chiến lược linh hoạt, cân bằng giữa việc giữ chân khách hàng truyền thống và chinh phục khách hàng hiện đại sẽ giúp doanh nghiệp phát triển bền vững trong dài hạn.
+
 #### 4. Đánh giá và nhận xét của khách hàng tác động ra sao đến hiệu suất bán hàng? Có mối liên hệ nào giữa độ dài bình luận và điểm số không?
 
 #### 5. Tỉ lệ giữ chân khách hàng theo khu vực ra sao? Có vùng nào có lượng khách hàng mới cao nhưng tỷ lệ quay lại thấp không?
