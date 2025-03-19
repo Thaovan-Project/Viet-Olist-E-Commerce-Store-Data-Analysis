@@ -160,6 +160,8 @@ Biểu đồ cho thấy *computers* có giá trị đơn hàng trung bình cao n
 #### 2. Phân phối đánh giá của người bán như thế nào? Đánh giá có ảnh hưởng gì đến hiệu suất bán hàng và tỷ lệ đơn hàng hoàn thành không?
 
 #### 3. Tỉ lệ hủy đơn trung bình là bao nhiêu? Điều này ảnh hưởng đến hiệu suất người bán ra sao? 
+<img width="122" alt="Ảnh màn hình 2025-03-19 lúc 14 08 17" src="https://github.com/user-attachments/assets/08b0d3f4-8ed0-40bf-a59c-1a7a1314735e" />
+
 
 ### Trải nghiệm và Hành vi Khách hàng
 #### 1. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Có nhóm khách hàng nào đặc biệt trung thành với nền tảng không?
