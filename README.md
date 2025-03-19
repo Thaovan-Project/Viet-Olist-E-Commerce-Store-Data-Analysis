@@ -1,7 +1,7 @@
 # Phân tích dữ liệu cửa hàng thương mại điện tử Olist
 
 ## Giới thiệu
-Dự án này phân tích bộ dữ liệu công khai từ Olist - một nền tảng thương mại điện tử của Brazil để rút ra những insight về tình hình kinh doanh, hiệu suất bán hàng, hành vi khách hàng, hiệu suất người bán, và quy trình giao hàng.
+Dự án này phân tích bộ dữ liệu công khai từ Olist - một nền tảng thương mại điện tử của Brazil để rút ra những insight về tình hình kinh doanh, hiệu suất bán hàng, hành vi khách hàng, hiệu suất người bán, và quy trình giao hàng của nên ftangr này giai đoạn 2016-2019.
 
 ## Về bộ dữ liệu
 Dữ liệu thô được được public và lấy từ Kaggle, bao gồm 9 bảng dưới đây: 
@@ -18,25 +18,28 @@ Dữ liệu thô được được public và lấy từ Kaggle, bao gồm 9 b�
 Mỗi bảng lưu trữ một loại thông tin chi tiết về đơn hàng, bao gồm ngày đặt hàng, thông tin sản phẩm, thanh toán, giao hàng, đánh giá từ khách hàng, thông tin người bán và dữ liệu hành vi cũng như nhân khẩu học của khách hàng. Bộ dữ liệu này cho phép phân tích toàn diện quy trình từ lúc khách hàng đặt hàng đến khi nhận được sản phẩm và để lại đánh giá.
 
 ## Mục tiêu của dự án
-Để giúp đội ngũ Olist có cái nhìn sâu sắc hơn về hoạt động kinh doanh của nền tảng, tôi sẽ đi sâu phân tích và giải đáp các câu hỏi dưới đây. Mục tiêu là cung cấp những insight giá trị giúp tối ưu hóa hiệu suất và thúc đẩy tăng trưởng bền vững cho Olist.
+Mục tiêu của dự án là cung cấp những insight giá trị giúp tối ưu hóa hiệu suất và thúc đẩy tăng trưởng bền vững cho Olist thông qua trả lời các câu hỏi thuộc các nhóm dưới đây.
 
 ### Hiệu suất Bán hàng và Doanh thu
 1. Tổng doanh thu của Olist là bao nhiêu? Doanh thu thay đổi như thế nào theo thời gian? Có giai đoạn nào đột biến hay suy giảm rõ rệt không?
 2. Số lượng đơn hàng được đặt trên Olist mỗi tháng? Có biến động theo mùa hay xu hướng nào đáng chú ý không?
 3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng so sánh như thế nào? Có danh mục nào tiềm năng nhưng chưa được khai thác triệt để không?
 4. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
+5. Tỉ lệ hủy đơn trung bình là bao nhiêu? Danh mục sản phẩm nào có nhiều đơn hủy nhất?
 
-### Hiệu suất Người bán
-1. Có bao nhiêu người bán đang hoạt động trên Olist? Con số này thay đổi ra sao theo thời gian? Có xu hướng người bán mới gia nhập hay rời khỏi nền tảng không?
-2. Phân phối đánh giá của người bán như thế nào? Đánh giá có ảnh hưởng gì đến hiệu suất bán hàng và tỷ lệ đơn hàng hoàn thành không?
-3. Tỉ lệ hủy đơn trung bình là bao nhiêu? Điều này ảnh hưởng đến hiệu suất người bán ra sao? Có nhóm người bán nào gặp vấn đề với tỷ lệ hủy đơn cao bất thường không?
-
-### Trải nghiệm và Hành vi Khách hàng
-1. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Có nhóm khách hàng nào đặc biệt trung thành với nền tảng không?
-2. Đánh giá trung bình của khách hàng là bao nhiêu? Điều này ảnh hưởng gì đến hiệu suất bán hàng? Có mối liên hệ nào giữa điểm đánh giá và doanh thu của sản phẩm không?
-3. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
-4. Đánh giá và nhận xét của khách hàng tác động ra sao đến hiệu suất bán hàng? Có mối liên hệ nào giữa độ dài bình luận và điểm số không?
-5. Tỉ lệ giữ chân khách hàng theo khu vực ra sao? Có vùng nào có lượng khách hàng mới cao nhưng tỷ lệ quay lại thấp không?
+### Khách hàng và Người bán
+1. Có bao nhiêu người bán đang hoạt động trên Olist? Con số này thay đổi ra sao theo thời gian?
+2. Doanh thu trung bình của một người bán là bao nhiêu?
+3. Có bao nhiêu phần trăm khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm trên tổng doanh thu?
+4. 
+   
+### Thời gian giao hàng và Đánh giá của khách hàng
+1. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu?
+2. Danh mục sản phẩm nào có nhiều khách hàng quay lại mua?
+3. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng sản phẩm không?
+4. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
+5. Đánh giá và nhận xét của khách hàng tác động ra sao đến hiệu suất bán hàng? Có mối liên hệ nào giữa độ dài bình luận và điểm số không?
+6. Tỉ lệ giữ chân khách hàng theo khu vực ra sao? Có vùng nào có lượng khách hàng mới cao nhưng tỷ lệ quay lại thấp không?
 
 ## Data Cleaning sử dụng Power Query
 Dữ liệu sau khi tải về đã được nhập vào Power BI và xử lý qua Power Query như sau:
