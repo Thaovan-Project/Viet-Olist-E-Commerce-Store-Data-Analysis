@@ -1,12 +1,10 @@
 # Phân tích dữ liệu cửa hàng thương mại điện tử Olist
 
 ## Giới thiệu
-Dự án này phân tích bộ dữ liệu công khai từ Olist, một nền tảng thương mại điện tử của Brazil, để rút ra những hiểu biết sâu sắc về doanh số bán hàng, hành vi khách hàng, hiệu suất người bán, và quy trình giao hàng. Báo cáo này sẽ giúp minh họa khả năng phân tích dữ liệu, trực quan hóa và diễn giải kết quả để tạo ra các đề xuất kinh doanh có giá trị.
-
-Mỗi bảng lưu trữ một loại thông tin chi tiết về đơn hàng, bao gồm ngày đặt hàng, thông tin sản phẩm, thanh toán, giao hàng, đánh giá từ khách hàng, thông tin người bán và dữ liệu hành vi cũng như nhân khẩu học của khách hàng. Bộ dữ liệu này cho phép phân tích toàn diện quy trình từ lúc khách hàng đặt hàng đến khi nhận được sản phẩm và để lại đánh giá.
+Dự án này phân tích bộ dữ liệu công khai từ Olist - một nền tảng thương mại điện tử của Brazil để rút ra những insight về tình hình kinh doanh, hiệu suất bán hàng, hành vi khách hàng, hiệu suất người bán, và quy trình giao hàng.
 
 ## Về bộ dữ liệu
-Dữ liệu thô được lấy từ Kaggle và bao gồm 9 bảng: 
+Dữ liệu thô được được public và lấy từ Kaggle, bao gồm 9 bảng dưới đây: 
 - Olist_customers
 - Olist_geolocation
 - Olist_order_items
