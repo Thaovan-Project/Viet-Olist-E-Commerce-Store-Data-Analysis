@@ -155,6 +155,7 @@ Biểu đồ cho thấy *computers* có giá trị đơn hàng trung bình cao n
 
 ### Hiệu suất Người bán
 #### 1. Có bao nhiêu người bán đang hoạt động trên Olist? Con số này thay đổi ra sao theo thời gian?
+<img width="546" alt="Ảnh màn hình 2025-03-19 lúc 09 42 26" src="https://github.com/user-attachments/assets/4c84f5d6-271b-41dd-8050-27d2f96edb29" />
 
 #### 2. Phân phối đánh giá của người bán như thế nào? Đánh giá có ảnh hưởng gì đến hiệu suất bán hàng và tỷ lệ đơn hàng hoàn thành không?
 
@@ -164,7 +165,8 @@ Biểu đồ cho thấy *computers* có giá trị đơn hàng trung bình cao n
 #### 1. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Có nhóm khách hàng nào đặc biệt trung thành với nền tảng không?
 <img width="380" alt="Ảnh màn hình 2025-03-19 lúc 09 14 26" src="https://github.com/user-attachments/assets/e59dcaaa-5cce-4952-be17-dfc4c47d983f" />
 
-#### 2. Đánh giá trung bình của khách hàng là bao nhiêu? Điều này ảnh hưởng gì đến hiệu suất bán hàng? Có mối liên hệ nào giữa điểm đánh giá và doanh thu của sản phẩm không?
+#### 2. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
+<img width="242" alt="Ảnh màn hình 2025-03-19 lúc 09 40 23" src="https://github.com/user-attachments/assets/7ba2ea81-28ca-4b24-86c7-4a86dc6c0d92" />
 
 #### 3. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
 <img width="322" alt="Ảnh màn hình 2025-03-19 lúc 09 15 02" src="https://github.com/user-attachments/assets/603c170e-5b38-451b-8e76-3fa0dea830a4" />
