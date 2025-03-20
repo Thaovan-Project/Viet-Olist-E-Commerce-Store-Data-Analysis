@@ -229,15 +229,22 @@ Dữ liệu cho thấy tổng số khách hàng là **99.44K**, nhưng tỷ lệ
 Biểu đồ trên cho thấy phần lớn doanh thu (**94,48%** – tương đương **15,42M**) đến từ khách hàng lần đầu mua sắm (**First-Time Customers**), trong khi khách hàng quay lại (**Repeat Customers**) chỉ đóng góp **5,52%** doanh thu (**0,90M**). Điều này cho thấy doanh nghiệp đang phụ thuộc nhiều vào việc thu hút khách hàng mới thay vì duy trì và khai thác khách hàng cũ. Với tỷ lệ khách hàng quay lại thấp, cần xem xét các chiến lược tăng cường **customer retention**, như chương trình khách hàng thân thiết, cá nhân hóa ưu đãi, hoặc chăm sóc sau bán hàng, để nâng cao giá trị trọn đời của khách hàng và tối ưu hóa doanh thu dài hạn.
 
 #### 4. Tình trạng giao hàng đang như thế nào? Các đơn hàng giao đúng hẹn chiếm bao nhiêu phần trăm?
+Dưới đây là bức ảnh tổng quan về tình trạng giao hàng của Olist. Biểu đồ trên cho thấy **tỷ lệ giao hàng đúng hạn (On-Time Delivery Rate) đạt 93.4%**, nghĩa là phần lớn đơn hàng được giao đúng thời gian dự kiến, chỉ có khoảng **6.6% đơn hàng bị trễ**. Bên cạnh đó, **thời gian giao hàng trung bình (AVG Delivery Day) là 12.5 ngày**, phản ánh khoảng thời gian từ lúc đặt hàng đến khi giao hàng thành công. Tỷ lệ đúng hạn cao là một dấu hiệu tích cực, nhưng vẫn cần xem xét nguyên nhân dẫn đến **6.6% đơn trễ hạn** để có thể tối ưu quy trình vận chuyển hơn nữa, giúp cải thiện trải nghiệm khách hàng.
 
-Để xác định thời gian giao hàng có đúng hạn hay không, chúng ta thực hiện hai bước sau:
+<img width="596" alt="Ảnh màn hình 2025-03-20 lúc 14 07 22" src="https://github.com/user-attachments/assets/e785568b-e024-4bbe-8b00-22a99ce24482" />
+
+Để tính toán ra được Ontime Delivery Rate, thực hiện lần lượt từng bước sau:
+
 Đầu tiên, tính thời gian giao hàng thực tế:
+
 Tạo cột Deliver time để tính số ngày giao hàng bằng cách lấy khoảng cách ngày giữa thời điểm đặt hàng (order_purchase_timestamp.1) và thời điểm khách hàng nhận được hàng (order_delivered_customer_date.1).
 
 ```dax
 Deliver time = DATEDIFF(olist_orders_dataset[order_purchase_timestamp.1],olist_orders_dataset[order_delivered_customer_date.1],DAY)
 ```
+
 Sau đó, phân loại đơn hàng giao đúng hạn hay trễ hạn:
+
 Tạo cột Delivery_On_Time, kiểm tra nếu ngày giao hàng thực tế (order_delivered_customer_date.1) sớm hơn hoặc bằng ngày dự kiến (order_estimated_delivery_date.1) thì đơn hàng "On Time", ngược lại là "Late".
 
 ```dax
@@ -251,7 +258,7 @@ IF(
 
 ![Ảnh chụp màn hình 2025-03-19 221834](https://github.com/user-attachments/assets/ad27c041-ebf8-499c-a5c5-50c9cf70cd29)
 
-Dữ liệu cho thấy **93,43%** đơn hàng được giao đúng hạn (**92,91K đơn hàng**), trong khi **6,57%** đơn hàng bị giao trễ (**6,54K đơn hàng**). Điều này cho thấy hệ thống vận hành và giao hàng đang hoạt động khá hiệu quả, đảm bảo phần lớn đơn hàng được giao đúng thời gian cam kết. Tuy nhiên, vẫn còn một tỷ lệ nhỏ đơn hàng bị trễ, có thể ảnh hưởng đến trải nghiệm khách hàng. Cần phân tích nguyên nhân gây chậm trễ, chẳng hạn như vấn đề kho vận, năng lực nhà cung cấp dịch vụ giao hàng hoặc tình trạng hàng hóa, để có biện pháp cải thiện và tối ưu hơn nữa.
+Như vậy, có thể thấy hệ thống vận hành và giao hàng đang hoạt động khá hiệu quả, đảm bảo phần lớn đơn hàng được giao đúng thời gian cam kết. Tuy nhiên, vẫn còn một tỷ lệ nhỏ đơn hàng bị trễ, có thể ảnh hưởng đến trải nghiệm khách hàng. Cần phân tích nguyên nhân gây chậm trễ, chẳng hạn như vấn đề kho vận, năng lực nhà cung cấp dịch vụ giao hàng hoặc tình trạng hàng hóa, để có biện pháp cải thiện và tối ưu hơn nữa.
 
 
 #### 5. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
