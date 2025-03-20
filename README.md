@@ -1,4 +1,4 @@
-# Phân tích dữ liệu cửa hàng thương mại điện tử Olist
+# Olist E-Commerce Store Data Analysis
 
 ## Giới thiệu
 Dự án này phân tích bộ dữ liệu công khai từ Olist - một nền tảng thương mại điện tử của Brazil nhằm mục đích rút ra những insight về tình hình kinh doanh, hiệu suất bán hàng, hành vi khách hàng, hiệu suất người bán, và quy trình giao hàng của nền tảng này giai đoạn 2016-2018.
@@ -31,7 +31,6 @@ Mục tiêu của dự án là cung cấp những insight giá trị giúp tối
 1. Có bao nhiêu người bán đang hoạt động trên Olist? Con số này thay đổi ra sao theo thời gian?
 2. Doanh thu trung bình của một người bán là bao nhiêu?
 3. Có bao nhiêu phần trăm khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm trên tổng doanh thu?
-4. 
    
 ### Thời gian giao hàng và Đánh giá của khách hàng
 1. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu?
@@ -129,7 +128,7 @@ CALCULATE(
 
 ![Ảnh chụp màn hình 2025-03-18 200051](https://github.com/user-attachments/assets/785420e7-f898-4fee-95fd-0520f6bfe8d4)
 
-Nhìn chung thì xu hướng phát sinh đơn hàng theo thời gian tỷ lệ thuận và không có biến đổi so với xu hướng của doanh thu đã được nêu ở trên.
+Nhìn chung thì xu hướng phát sinh đơn hàng theo thời gian sẽ tỷ lệ thuận và không có biến đổi đáng kể so với xu hướng của doanh thu đã được nêu ở trên.
 
 #### 3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng so sánh như thế nào? Có danh mục nào tiềm năng nhưng chưa được khai thác triệt để không?
 Biểu đồ cho thấy sự chênh lệch giữa số lượng đơn hàng và tổng doanh thu theo danh mục sản phẩm. Một số danh mục như *bed_bath_table* và *health_beauty* có số lượng đơn cao trong top nhưng doanh thu không tương ứng, cho thấy giá trị trung bình mỗi đơn thấp. Ngược lại, các danh mục như *watches_gifts* và *cool_stuff* có doanh thu cao dù số lượng đơn ít hơn, cho thấy đây là các sản phẩm có giá trị cao. Như vậy, để tối ưu danh mục có đơn hàng cao nhưng doanh thu thấp, Olist có thể cân nhắc tập trung tăng giá trị trung bình mỗi đơn bằng chiến lược upsell/cross-sell. Đồng thời, với các danh mục có doanh thu cao nhưng số lượng đơn ít, nên đẩy mạnh marketing để thu hút thêm khách hàng, từ đó cân bằng giữa số lượng đơn hàng và tổng doanh thu.
@@ -166,8 +165,19 @@ Dữ liệu cho thấy tổng số người bán đạt **3.095**, với xu hư�
 
 <img width="546" alt="Ảnh màn hình 2025-03-19 lúc 09 42 26" src="https://github.com/user-attachments/assets/4c84f5d6-271b-41dd-8050-27d2f96edb29" />
 
-### Trải nghiệm khách hàng
-#### 1. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Và họ quay lại mua sắm danh mục sản phẩm nào nhiều nhất?
+### Hành vi mua hàng và Trải nghiệm khách hàng 
+#### 1. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
+<img width="322" alt="Ảnh màn hình 2025-03-19 lúc 09 15 02" src="https://github.com/user-attachments/assets/603c170e-5b38-451b-8e76-3fa0dea830a4" />
+
+Dựa trên biểu đồ, Sao Paulo dẫn đầu về số lượng đơn hàng cho thấy đây là thị trường trọng điểm cần tập trung khai thác. Thẻ tín dụng chiếm ưu thế vượt trội trong các phương thức thanh toán, đặc biệt ở các thành phố lớn như Sao Paulo và Rio de Janeiro, phản ánh xu hướng tiêu dùng linh hoạt tại các thành phố lớn. Doanh nghiệp nên tận dụng bằng cách triển khai ưu đãi khi thanh toán qua thẻ tín dụng để thúc đẩy doanh số.
+
+Tuy nhiên, phương thức "boleto" vẫn chiếm tỷ trọng đáng kể, đặc biệt ở Sao Paulo, cho thấy một nhóm khách hàng vẫn giữ thói quen thanh toán truyền thống.  Nguyên nhân có thể do tâm lý muốn kiểm soát chi tiêu hoặc chưa quen với các hình thức thanh toán điện tử. Để không mất đi nhóm khách hàng này, doanh nghiệp nên cân nhắc giữ lại và đơn giản hóa quy trình thanh toán bằng boleto, đồng thời có thể truyền thông về các lợi ích cũng như độ an toàn của các phương thức hiện đại để từng bước thay đổi hành vi tiêu dùng.
+
+Ngoài ra, Rio de Janeiro và Belo Horizonte cũng nổi lên như hai thị trường tiềm năng với lượng đơn hàng đáng kể chỉ đứng sau Sao Paulo. Doanh nghiệp có thể mở rộng marketing và cải thiện dịch vụ tại đây. Những thành phố như Curitiba, Brasilia và Campinas tuy có lượng đơn hàng thấp hơn nhưng vẫn đáng chú ý để phát triển trong tương lai. 
+
+Tóm lại, doanh nghiệp nên tập trung khai thác triệt để Sao Paulo, đẩy mạnh thanh toán thẻ tín dụng và mở rộng các thành phố tiềm năng để phát triển bền vững.
+
+#### 2. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Và họ quay lại mua sắm danh mục sản phẩm nào nhiều nhất?
 Để tính toán được Retention rate, làm lần lượt các bước như sau:
 
 Đầu tiên, xác định khách hàng có mua nhiều hơn 1 đơn hàng:
@@ -218,8 +228,8 @@ Dữ liệu cho thấy tổng số khách hàng là **99.44K**, nhưng tỷ lệ
 
 Biểu đồ trên cho thấy phần lớn doanh thu (**94,48%** – tương đương **15,42M**) đến từ khách hàng lần đầu mua sắm (**First-Time Customers**), trong khi khách hàng quay lại (**Repeat Customers**) chỉ đóng góp **5,52%** doanh thu (**0,90M**). Điều này cho thấy doanh nghiệp đang phụ thuộc nhiều vào việc thu hút khách hàng mới thay vì duy trì và khai thác khách hàng cũ. Với tỷ lệ khách hàng quay lại thấp, cần xem xét các chiến lược tăng cường **customer retention**, như chương trình khách hàng thân thiết, cá nhân hóa ưu đãi, hoặc chăm sóc sau bán hàng, để nâng cao giá trị trọn đời của khách hàng và tối ưu hóa doanh thu dài hạn.
 
+#### 4. Các đơn hàng giao đúng hẹn chiếm bao nhiêu phần trăm?
 
-====Giao đúng hạn vs Giao trễ
 Để xác định thời gian giao hàng có đúng hạn hay không, chúng ta thực hiện hai bước sau:
 Đầu tiên, tính thời gian giao hàng thực tế:
 Tạo cột Deliver time để tính số ngày giao hàng bằng cách lấy khoảng cách ngày giữa thời điểm đặt hàng (order_purchase_timestamp.1) và thời điểm khách hàng nhận được hàng (order_delivered_customer_date.1).
@@ -244,7 +254,7 @@ Dữ liệu cho thấy **93,43%** đơn hàng được giao đúng hạn (**92,9
 ![Ảnh chụp màn hình 2025-03-19 221834](https://github.com/user-attachments/assets/ad27c041-ebf8-499c-a5c5-50c9cf70cd29)
 
 
-#### 2. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
+#### 5. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
 ![Ảnh chụp màn hình 2025-03-19 222248](https://github.com/user-attachments/assets/1db26458-ac06-43bb-88cf-f1171bbe8ad0)
 
 <img width="242" alt="Ảnh màn hình 2025-03-19 lúc 09 40 23" src="https://github.com/user-attachments/assets/7ba2ea81-28ca-4b24-86c7-4a86dc6c0d92" />
@@ -270,16 +280,6 @@ Biểu đồ này thể hiện phần trăm số đơn hàng giao đúng hẹn v
 Mối liên hệ giữa thời gian giao hàng và điểm đánh giá theo thời gian
 ![Ảnh chụp màn hình 2025-03-19 222148](https://github.com/user-attachments/assets/ba959182-a36c-4f3c-b43d-bb153816d5ee)
 
-#### 3. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
-<img width="322" alt="Ảnh màn hình 2025-03-19 lúc 09 15 02" src="https://github.com/user-attachments/assets/603c170e-5b38-451b-8e76-3fa0dea830a4" />
-
-Dựa trên biểu đồ, Sao Paulo dẫn đầu về số lượng đơn hàng cho thấy đây là thị trường trọng điểm cần tập trung khai thác. Thẻ tín dụng chiếm ưu thế vượt trội trong các phương thức thanh toán, đặc biệt ở các thành phố lớn như Sao Paulo và Rio de Janeiro, phản ánh xu hướng tiêu dùng linh hoạt tại các thành phố lớn. Doanh nghiệp nên tận dụng bằng cách triển khai ưu đãi khi thanh toán qua thẻ tín dụng để thúc đẩy doanh số.
-
-Tuy nhiên, phương thức "boleto" vẫn chiếm tỷ trọng đáng kể, đặc biệt ở Sao Paulo, cho thấy một nhóm khách hàng vẫn giữ thói quen thanh toán truyền thống.  Nguyên nhân có thể do tâm lý muốn kiểm soát chi tiêu hoặc chưa quen với các hình thức thanh toán điện tử. Để không mất đi nhóm khách hàng này, doanh nghiệp nên cân nhắc giữ lại và đơn giản hóa quy trình thanh toán bằng boleto, đồng thời có thể truyền thông về các lợi ích cũng như độ an toàn của các phương thức hiện đại để từng bước thay đổi hành vi tiêu dùng.
-
-Ngoài ra, Rio de Janeiro và Belo Horizonte cũng nổi lên như hai thị trường tiềm năng với lượng đơn hàng đáng kể chỉ đứng sau Sao Paulo. Doanh nghiệp có thể mở rộng marketing và cải thiện dịch vụ tại đây. Những thành phố như Curitiba, Brasilia và Campinas tuy có lượng đơn hàng thấp hơn nhưng vẫn đáng chú ý để phát triển trong tương lai. 
-
-Tóm lại, doanh nghiệp nên tập trung khai thác triệt để Sao Paulo, đẩy mạnh thanh toán thẻ tín dụng và mở rộng các thành phố tiềm năng để phát triển bền vững.
 
 #### 4. Đánh giá và nhận xét của khách hàng tác động ra sao đến hiệu suất bán hàng? 
 ![Ảnh chụp màn hình 2025-03-19 221736](https://github.com/user-attachments/assets/9b74250f-1a30-4364-86a3-37cb0e7b19e6)
