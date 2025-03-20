@@ -249,9 +249,9 @@ IF(
 )
 ```
 
-Dữ liệu cho thấy **93,43%** đơn hàng được giao đúng hạn (**92,91K đơn hàng**), trong khi **6,57%** đơn hàng bị giao trễ (**6,54K đơn hàng**). Điều này cho thấy hệ thống vận hành và giao hàng đang hoạt động khá hiệu quả, đảm bảo phần lớn đơn hàng được giao đúng thời gian cam kết. Tuy nhiên, vẫn còn một tỷ lệ nhỏ đơn hàng bị trễ, có thể ảnh hưởng đến trải nghiệm khách hàng. Cần phân tích nguyên nhân gây chậm trễ, chẳng hạn như vấn đề kho vận, năng lực nhà cung cấp dịch vụ giao hàng hoặc tình trạng hàng hóa, để có biện pháp cải thiện và tối ưu hơn nữa.
-
 ![Ảnh chụp màn hình 2025-03-19 221834](https://github.com/user-attachments/assets/ad27c041-ebf8-499c-a5c5-50c9cf70cd29)
+
+Dữ liệu cho thấy **93,43%** đơn hàng được giao đúng hạn (**92,91K đơn hàng**), trong khi **6,57%** đơn hàng bị giao trễ (**6,54K đơn hàng**). Điều này cho thấy hệ thống vận hành và giao hàng đang hoạt động khá hiệu quả, đảm bảo phần lớn đơn hàng được giao đúng thời gian cam kết. Tuy nhiên, vẫn còn một tỷ lệ nhỏ đơn hàng bị trễ, có thể ảnh hưởng đến trải nghiệm khách hàng. Cần phân tích nguyên nhân gây chậm trễ, chẳng hạn như vấn đề kho vận, năng lực nhà cung cấp dịch vụ giao hàng hoặc tình trạng hàng hóa, để có biện pháp cải thiện và tối ưu hơn nữa.
 
 
 #### 5. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
@@ -270,9 +270,6 @@ Xuyên suốt từ năm 2016 đến năm 2018, có thể nhận thấy nỗ lự
 Tuy nhiên, không phải toàn bộ quá trình đều diễn ra thuận lợi. Năm 2017 đánh dấu một giai đoạn có sự biến động, mặc dù thời gian giao hàng đã giảm đáng kể (xuống khoảng 11-14 ngày), nhưng điểm đánh giá vẫn chỉ dao động quanh mức 4.0 - 4.12 điểm và không tăng trưởng đáng kể. Điều này cho thấy, bên cạnh việc rút ngắn thời gian giao hàng, chất lượng sản phẩm và dịch vụ cũng là yếu tố quan trọng để cải thiện sự hài lòng toàn diện của khách hàng
 
 Như vậy có thể thấy rằng, thời gian giao hàng nhanh là yếu tố hàng đầu tác động đến điểm đánh giá. Vì vậy, Olist cần tiếp tục đầu tư vào cải thiện chuỗi cung ứng, nâng cấp hệ thống logistics và hợp tác với các đơn vị vận chuyển hiệu quả. Tuy nhiên, cũng phải để ý rằng năm 2017 là minh chứng cho việc giao hàng nhanh không đồng nghĩa với việc khách hàng hoàn toàn hài lòng. Olist cần đảm bảo rằng sản phẩm đúng mô tả, đóng gói cẩn thận và dịch vụ khách hàng chuyên nghiệp để giữ vững điểm đánh giá.
-
-Biểu đồ này thể hiện phần trăm số đơn hàng giao đúng hẹn và trễ
-![Ảnh chụp màn hình 2025-03-19 221834](https://github.com/user-attachments/assets/6cfb0f41-17b6-4b86-9740-9634fd6dae38)
 
 Điểm thấp hơn hẳn so với category khác
 ![Ảnh chụp màn hình 2025-03-19 222027](https://github.com/user-attachments/assets/083671b4-2b2d-4c10-8ddf-cb3999c7c3cc)
