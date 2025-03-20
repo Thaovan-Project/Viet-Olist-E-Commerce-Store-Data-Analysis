@@ -228,7 +228,7 @@ Dữ liệu cho thấy tổng số khách hàng là **99.44K**, nhưng tỷ lệ
 
 Biểu đồ trên cho thấy phần lớn doanh thu (**94,48%** – tương đương **15,42M**) đến từ khách hàng lần đầu mua sắm (**First-Time Customers**), trong khi khách hàng quay lại (**Repeat Customers**) chỉ đóng góp **5,52%** doanh thu (**0,90M**). Điều này cho thấy doanh nghiệp đang phụ thuộc nhiều vào việc thu hút khách hàng mới thay vì duy trì và khai thác khách hàng cũ. Với tỷ lệ khách hàng quay lại thấp, cần xem xét các chiến lược tăng cường **customer retention**, như chương trình khách hàng thân thiết, cá nhân hóa ưu đãi, hoặc chăm sóc sau bán hàng, để nâng cao giá trị trọn đời của khách hàng và tối ưu hóa doanh thu dài hạn.
 
-#### 4. Các đơn hàng giao đúng hẹn chiếm bao nhiêu phần trăm?
+#### 4. Tình trạng giao hàng đang như thế nào? Các đơn hàng giao đúng hẹn chiếm bao nhiêu phần trăm?
 
 Để xác định thời gian giao hàng có đúng hạn hay không, chúng ta thực hiện hai bước sau:
 Đầu tiên, tính thời gian giao hàng thực tế:
