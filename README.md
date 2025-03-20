@@ -43,13 +43,13 @@ Mục tiêu của dự án là cung cấp những insight giá trị giúp tối
 ## Data Cleaning sử dụng Power Query
 Dữ liệu sau khi tải về đã được nhập vào Power BI và xử lý qua Power Query như sau:
 - Chế độ "Column profiling" được chuyển từ "Top 1000 rows" sang "Entire dataset"
-- bật các tùy chọn "Column quality", "Column profile", và "Column distribution" để có cái nhìn tổng quan về chất lượng dữ liệu từng cột.
+- Bật các tùy chọn "Column quality", "Column profile", và "Column distribution" để có cái nhìn tổng quan về chất lượng dữ liệu từng cột.
 - Chuyển hàng đầu tiên thành tiêu đề cột cho các bảng chưa đúng định dạng. (Use First row as Header)
 - Kiểm tra và chỉnh sửa định dạng dữ liệu cho từng cột.
 - Chuyển đổi cột chứa giá trị tiền tệ (giá sản phẩm, giá thanh toán...) sang định dạng Fixed Decimal.
-- Chuẩn hoá dữ liệu: Viết hoa chữ cái đầu của tên riêng, xử lý ký tự bị sai như "são paulo" thành "sao paulo".
+- Chuẩn hoá dữ liệu: Viết hoa chữ cái đầu của tên riêng, xử lý ký tự bị sai như "são paulo" thành "sao paulo" thông qua Replace Value.
 - Tách cột ngày giờ thành cột ngày riêng để thuận tiện cho việc phân tích theo thời gian.
-- Merge bảng "Product_category_name" với bảng "Olist_products" để tạo bảng dữ liệu hoàn chỉnh về sản phẩm. (Chỉ giữ lại 2 cột Product Id và Product Category Name in English)
+- Merge bảng "Product_category_name" với bảng "Olist_products" để tạo bảng dữ liệu hoàn chỉnh về sản phẩm. (Chỉ giữ lại 2 cột Product Id và Product Category Name in English trong bảng này, bỏ các cột không liên quan đi, ví dụ: Product Name Length,...)
 - Loại bỏ bản ghi trùng lặp và cột dư thừa không cần thiết.
 
 ## Data Modelling
@@ -271,8 +271,11 @@ Tuy nhiên, không phải toàn bộ quá trình đều diễn ra thuận lợi.
 
 Như vậy có thể thấy rằng, thời gian giao hàng nhanh là yếu tố hàng đầu tác động đến điểm đánh giá. Vì vậy, Olist cần tiếp tục đầu tư vào cải thiện chuỗi cung ứng, nâng cấp hệ thống logistics và hợp tác với các đơn vị vận chuyển hiệu quả. Tuy nhiên, cũng phải để ý rằng năm 2017 là minh chứng cho việc giao hàng nhanh không đồng nghĩa với việc khách hàng hoàn toàn hài lòng. Olist cần đảm bảo rằng sản phẩm đúng mô tả, đóng gói cẩn thận và dịch vụ khách hàng chuyên nghiệp để giữ vững điểm đánh giá.
 
-Điểm thấp hơn hẳn so với category khác
+#### Có danh mục sản phẩm nào có điểm đánh giá đáng chú ý không?
+Điểm thấp hơn hẳn so với category khác:
 ![Ảnh chụp màn hình 2025-03-19 222027](https://github.com/user-attachments/assets/083671b4-2b2d-4c10-8ddf-cb3999c7c3cc)
+
+Biểu đồ cho thấy danh mục *security_and_services* có điểm đánh giá trung bình thấp nhất (**2.50**), cho thấy khách hàng không hài lòng với chất lượng dịch vụ này, có thể do tốc độ phản hồi chậm hoặc không đáp ứng kỳ vọng. Trong khi đó, các danh mục còn lại có điểm đánh giá trung bình dao động từ **3.62 đến 3.93**, phản ánh mức độ hài lòng khá ổn định nhưng vẫn có khoảng cách cần cải thiện. Đáng chú ý, có một mục "(Blank)" với điểm đánh giá **3.90**, có thể do dữ liệu chưa được gán đúng danh mục sản phẩm, gây ảnh hưởng đến tính chính xác của báo cáo. Để cải thiện, cần phân tích kỹ nguyên nhân khiến *security_and_services* có điểm thấp, thu thập phản hồi chi tiết từ khách hàng để nâng cao trải nghiệm mua sắm, đồng thời kiểm tra và xử lý dữ liệu trống để đảm bảo độ chính xác trong đánh giá.
 
 Mối liên hệ giữa thời gian giao hàng và điểm đánh giá theo thời gian
 ![Ảnh chụp màn hình 2025-03-19 222148](https://github.com/user-attachments/assets/ba959182-a36c-4f3c-b43d-bb153816d5ee)
