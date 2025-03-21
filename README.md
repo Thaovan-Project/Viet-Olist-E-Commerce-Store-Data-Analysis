@@ -257,35 +257,34 @@ Như vậy, có thể thấy hệ thống vận hành và giao hàng đang hoạ
 
 
 #### 5. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
-![Ảnh chụp màn hình 2025-03-19 222248](https://github.com/user-attachments/assets/1db26458-ac06-43bb-88cf-f1171bbe8ad0)
 
-<img width="242" alt="Ảnh màn hình 2025-03-19 lúc 09 40 23" src="https://github.com/user-attachments/assets/7ba2ea81-28ca-4b24-86c7-4a86dc6c0d92" />
+<img width="499" alt="Ảnh màn hình 2025-03-21 lúc 14 37 08" src="https://github.com/user-attachments/assets/02136bf7-8979-4d6f-99c1-8c64ca45af64" />
 
-Dựa trên hai biểu đồ trên, có thể thấy rõ rằng thời gian giao hàng là yếu tố tác động trực tiếp đến trải nghiệm khách hàng và điểm đánh giá.
+Điểm đánh giá trung bình đạt **4,09/5**, cho thấy phần lớn khách hàng có trải nghiệm tích cực với sản phẩm/dịch vụ. Mặc dù điểm số này khá cao và gần mức tối đa, nhưng vẫn tồn tại một số đánh giá thấp hơn, phản ánh rằng vẫn còn dư địa để cải thiện chất lượng. Việc phân tích sâu hơn các yếu tố ảnh hưởng, chẳng hạn như nhóm sản phẩm có điểm số thấp hoặc các phản hồi tiêu cực phổ biến, sẽ giúp xác định chính xác những điểm cần tối ưu để nâng cao trải nghiệm khách hàng.
 
-Biểu đồ đầu tiên cho thấy một mối quan hệ nghịch đảo giữa thời gian giao hàng trung bình và điểm đánh giá. Cụ thể, những đơn hàng có thời gian giao lâu nhất (21.25 ngày) chỉ nhận được điểm đánh giá trung bình là 1, trong khi những đơn hàng được giao nhanh hơn (10.62 ngày) lại đạt điểm đánh giá 5. Điều này phản ánh rõ ràng rằng khách hàng càng được phục vụ nhanh chóng, họ càng hài lòng và đánh giá cao.
+![Ảnh chụp màn hình 2025-03-19 222148](https://github.com/user-attachments/assets/ba959182-a36c-4f3c-b43d-bb153816d5ee)
 
-Xuyên suốt từ năm 2016 đến năm 2018, có thể nhận thấy nỗ lực tối ưu hóa vận hành của Olist để cải thiện thời gian giao hàng và nâng cao trải nghiệm khách hàng.
+Biểu đồ trên cho thấy mối quan hệ giữa **thời gian giao hàng trung bình** và **điểm đánh giá của khách hàng** từ 2016 đến 2018. Ban đầu, thời gian giao hàng rất cao (**55 ngày vào Q3/2016**) nhưng đã giảm mạnh xuống **dưới 15 ngày từ 2017 trở đi**, cho thấy sự cải thiện trong quy trình vận chuyển.  
 
-Ở giai đoạn đầu tiên (Q3 2016), thời gian giao hàng lên đến 55 ngày, dẫn đến điểm đánh giá cực kỳ thấp, chỉ đạt 1.00 điểm. Tuy nhiên, nhờ sự cải tiến liên tục, đến Q4 2018, thời gian giao hàng đã giảm xuống 2.25 ngày, trong khi điểm đánh giá tăng đáng kể lên 4.26 — gần chạm ngưỡng lý tưởng 5.0 điểm. Đây là minh chứng rõ ràng cho thấy việc rút ngắn thời gian giao hàng không chỉ giúp Olist cải thiện hiệu suất vận hành, mà còn xây dựng được lòng tin và sự hài lòng từ phía khách hàng.
+Song song đó, **điểm đánh giá trung bình tăng từ 1,00 lên hơn 4,00**, phản ánh sự hài lòng của khách hàng khi thời gian giao hàng được rút ngắn. Tuy nhiên, đến **Q4/2018, cả hai chỉ số đều giảm**, đặc biệt điểm đánh giá rớt xuống **2,25**, có thể do gián đoạn vận hành hoặc yếu tố mùa vụ.  
 
-Tuy nhiên, không phải toàn bộ quá trình đều diễn ra thuận lợi. Năm 2017 đánh dấu một giai đoạn có sự biến động, mặc dù thời gian giao hàng đã giảm đáng kể (xuống khoảng 11-14 ngày), nhưng điểm đánh giá vẫn chỉ dao động quanh mức 4.0 - 4.12 điểm và không tăng trưởng đáng kể. Điều này cho thấy, bên cạnh việc rút ngắn thời gian giao hàng, chất lượng sản phẩm và dịch vụ cũng là yếu tố quan trọng để cải thiện sự hài lòng toàn diện của khách hàng
+Dữ liệu nhấn mạnh **tác động của tốc độ giao hàng đến trải nghiệm khách hàng**, đồng thời cảnh báo doanh nghiệp về rủi ro khi chất lượng dịch vụ giảm sút.
 
-Như vậy có thể thấy rằng, thời gian giao hàng nhanh là yếu tố hàng đầu tác động đến điểm đánh giá. Vì vậy, Olist cần tiếp tục đầu tư vào cải thiện chuỗi cung ứng, nâng cấp hệ thống logistics và hợp tác với các đơn vị vận chuyển hiệu quả. Tuy nhiên, cũng phải để ý rằng năm 2017 là minh chứng cho việc giao hàng nhanh không đồng nghĩa với việc khách hàng hoàn toàn hài lòng. Olist cần đảm bảo rằng sản phẩm đúng mô tả, đóng gói cẩn thận và dịch vụ khách hàng chuyên nghiệp để giữ vững điểm đánh giá.
+![Ảnh chụp màn hình 2025-03-19 221736](https://github.com/user-attachments/assets/9b74250f-1a30-4364-86a3-37cb0e7b19e6)
+
+Hai biểu đồ trên thể hiện mối quan hệ giữa thời gian giao hàng, điểm đánh giá và số lượng đơn hàng.  
+
+Biểu đồ bên trái cho thấy **thời gian giao hàng càng ngắn, điểm đánh giá càng cao**. Cụ thể, đơn hàng có điểm đánh giá **1 sao** có thời gian giao trung bình **21,25 ngày**, trong khi đơn hàng **5 sao** chỉ mất **10,62 ngày**. Điều này khẳng định **tốc độ giao hàng ảnh hưởng trực tiếp đến mức độ hài lòng của khách hàng**.  
+
+Biểu đồ bên phải cho thấy **đơn hàng có điểm 5 sao chiếm tỷ lệ lớn nhất**, lên tới **57K đơn**, trong khi đơn hàng có điểm thấp như **1 sao (11K đơn) hoặc 2 sao (3K đơn) thấp hơn đáng kể**. Điều này gợi ý rằng **chất lượng giao hàng và trải nghiệm tốt sẽ thúc đẩy số lượng đơn hàng**, còn trải nghiệm kém có thể khiến khách hàng không quay lại.  
+
+Tóm lại, doanh nghiệp nên tập trung **tối ưu tốc độ giao hàng** để không chỉ nâng cao trải nghiệm khách hàng mà còn gia tăng số lượng đơn đặt hàng.
 
 #### 6. Có danh mục sản phẩm nào có điểm đánh giá đáng chú ý không?
 
 ![Ảnh chụp màn hình 2025-03-19 222027](https://github.com/user-attachments/assets/083671b4-2b2d-4c10-8ddf-cb3999c7c3cc)
 
 Biểu đồ cho thấy danh mục *security_and_services* có điểm đánh giá trung bình thấp nhất (**2.50**), cho thấy khách hàng không hài lòng với chất lượng dịch vụ này, có thể do tốc độ phản hồi chậm hoặc không đáp ứng kỳ vọng. Trong khi đó, các danh mục còn lại có điểm đánh giá trung bình dao động từ **3.62 đến 3.93**, phản ánh mức độ hài lòng khá ổn định nhưng vẫn có khoảng cách cần cải thiện. Đáng chú ý, có một mục "(Blank)" với điểm đánh giá **3.90**, có thể do dữ liệu chưa được gán đúng danh mục sản phẩm, gây ảnh hưởng đến tính chính xác của báo cáo. Để cải thiện, cần phân tích kỹ nguyên nhân khiến *security_and_services* có điểm thấp, thu thập phản hồi chi tiết từ khách hàng để nâng cao trải nghiệm mua sắm, đồng thời kiểm tra và xử lý dữ liệu trống để đảm bảo độ chính xác trong đánh giá.
-
-Mối liên hệ giữa thời gian giao hàng và điểm đánh giá theo thời gian
-![Ảnh chụp màn hình 2025-03-19 222148](https://github.com/user-attachments/assets/ba959182-a36c-4f3c-b43d-bb153816d5ee)
-
-
-#### 4. Đánh giá và nhận xét của khách hàng tác động ra sao đến hiệu suất bán hàng? 
-![Ảnh chụp màn hình 2025-03-19 221736](https://github.com/user-attachments/assets/9b74250f-1a30-4364-86a3-37cb0e7b19e6)
-
 
 ## Insight
 
