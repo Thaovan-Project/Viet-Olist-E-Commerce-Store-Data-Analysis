@@ -27,18 +27,14 @@ Mục tiêu của dự án là cung cấp những insight giá trị giúp tối
 4. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
 5. Tỉ lệ hủy đơn trung bình là bao nhiêu? Danh mục sản phẩm nào có nhiều đơn hủy nhất?
 
-### Khách hàng và Người bán
+### Hiệu suất Người bán và Hành vi/ Trải nghiệm khách hàng
 1. Có bao nhiêu người bán đang hoạt động trên Olist? Con số này thay đổi ra sao theo thời gian?
-2. Doanh thu trung bình của một người bán là bao nhiêu?
-3. Có bao nhiêu phần trăm khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm trên tổng doanh thu?
+2. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
+3. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Và họ quay lại mua sắm danh mục sản phẩm nào nhiều nhất?
+4. Tình trạng giao hàng đang như thế nào? Các đơn hàng giao đúng hẹn chiếm bao nhiêu phần trăm?
+5. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
+6. Có danh mục sản phẩm nào có điểm đánh giá đáng chú ý không?
    
-### Thời gian giao hàng và Đánh giá của khách hàng
-1. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu?
-2. Danh mục sản phẩm nào có nhiều khách hàng quay lại mua?
-3. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng sản phẩm không?
-4. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
-5. Đánh giá và nhận xét của khách hàng tác động ra sao đến hiệu suất bán hàng? Có mối liên hệ nào giữa độ dài bình luận và điểm số không?
-6. Tỉ lệ giữ chân khách hàng theo khu vực ra sao? Có vùng nào có lượng khách hàng mới cao nhưng tỷ lệ quay lại thấp không?
 
 ## Data Cleaning sử dụng Power Query
 Dữ liệu sau khi tải về đã được nhập vào Power BI và xử lý qua Power Query như sau:
@@ -159,14 +155,13 @@ Biểu đồ bên dưới cho thấy danh mục **sports_leisure (thể thao & g
 
 ![Ảnh chụp màn hình 2025-03-19 223836](https://github.com/user-attachments/assets/edf725ee-5aa1-4a22-a3c6-d157341d7a55)
 
-### Hiệu suất Người bán
+### Hiệu suất Người bán và Trải nghiệm/ Hành vi Khách hàng
 #### 1. Có bao nhiêu người bán đang hoạt động trên Olist? Con số này thay đổi ra sao theo thời gian?
 Dữ liệu cho thấy tổng số người bán đạt **3.095**, với xu hướng tăng trưởng mạnh từ **Q3 2016** đến **Q2 2018**. Cụ thể, số lượng người bán tăng đều qua các quý, từ gần như **0K ở Q3 2016** lên **1.7K ở Q2 2018**, chứng tỏ nền tảng thu hút ngày càng nhiều người bán tham gia. Tuy nhiên, đến **Q3 2018**, số lượng người bán giảm nhẹ còn **1.6K**, cho thấy có thể có yếu tố ảnh hưởng như cạnh tranh gia tăng, chính sách thay đổi hoặc thị trường bão hòa. Để duy trì và phát triển hệ sinh thái, nền tảng cần phân tích nguyên nhân giảm và đưa ra chiến lược thu hút cũng như giữ chân người bán hiệu quả hơn.
 
 <img width="546" alt="Ảnh màn hình 2025-03-19 lúc 09 42 26" src="https://github.com/user-attachments/assets/4c84f5d6-271b-41dd-8050-27d2f96edb29" />
 
-### Hành vi mua hàng và Trải nghiệm khách hàng 
-#### 1. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
+#### 2. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
 <img width="322" alt="Ảnh màn hình 2025-03-19 lúc 09 15 02" src="https://github.com/user-attachments/assets/603c170e-5b38-451b-8e76-3fa0dea830a4" />
 
 Dựa trên biểu đồ, Sao Paulo dẫn đầu về số lượng đơn hàng cho thấy đây là thị trường trọng điểm cần tập trung khai thác. Thẻ tín dụng chiếm ưu thế vượt trội trong các phương thức thanh toán, đặc biệt ở các thành phố lớn như Sao Paulo và Rio de Janeiro, phản ánh xu hướng tiêu dùng linh hoạt tại các thành phố lớn. Doanh nghiệp nên tận dụng bằng cách triển khai ưu đãi khi thanh toán qua thẻ tín dụng để thúc đẩy doanh số.
@@ -177,7 +172,7 @@ Ngoài ra, Rio de Janeiro và Belo Horizonte cũng nổi lên như hai thị tr�
 
 Tóm lại, doanh nghiệp nên tập trung khai thác triệt để Sao Paulo, đẩy mạnh thanh toán thẻ tín dụng và mở rộng các thành phố tiềm năng để phát triển bền vững.
 
-#### 2. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Và họ quay lại mua sắm danh mục sản phẩm nào nhiều nhất?
+#### 3. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Và họ quay lại mua sắm danh mục sản phẩm nào nhiều nhất?
 Để tính toán được Retention rate, làm lần lượt các bước như sau:
 
 Đầu tiên, xác định khách hàng có mua nhiều hơn 1 đơn hàng:
@@ -278,7 +273,7 @@ Tuy nhiên, không phải toàn bộ quá trình đều diễn ra thuận lợi.
 
 Như vậy có thể thấy rằng, thời gian giao hàng nhanh là yếu tố hàng đầu tác động đến điểm đánh giá. Vì vậy, Olist cần tiếp tục đầu tư vào cải thiện chuỗi cung ứng, nâng cấp hệ thống logistics và hợp tác với các đơn vị vận chuyển hiệu quả. Tuy nhiên, cũng phải để ý rằng năm 2017 là minh chứng cho việc giao hàng nhanh không đồng nghĩa với việc khách hàng hoàn toàn hài lòng. Olist cần đảm bảo rằng sản phẩm đúng mô tả, đóng gói cẩn thận và dịch vụ khách hàng chuyên nghiệp để giữ vững điểm đánh giá.
 
-#### Có danh mục sản phẩm nào có điểm đánh giá đáng chú ý không?
+#### 6. Có danh mục sản phẩm nào có điểm đánh giá đáng chú ý không?
 
 ![Ảnh chụp màn hình 2025-03-19 222027](https://github.com/user-attachments/assets/083671b4-2b2d-4c10-8ddf-cb3999c7c3cc)
 
@@ -291,7 +286,6 @@ Mối liên hệ giữa thời gian giao hàng và điểm đánh giá theo th�
 #### 4. Đánh giá và nhận xét của khách hàng tác động ra sao đến hiệu suất bán hàng? 
 ![Ảnh chụp màn hình 2025-03-19 221736](https://github.com/user-attachments/assets/9b74250f-1a30-4364-86a3-37cb0e7b19e6)
 
-#### 5. Tỉ lệ giữ chân khách hàng theo khu vực ra sao? Có vùng nào có lượng khách hàng mới cao nhưng tỷ lệ quay lại thấp không?
 
 ## Insight
 
