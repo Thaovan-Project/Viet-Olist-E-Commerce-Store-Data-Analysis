@@ -46,12 +46,12 @@ Dữ liệu sau khi tải về đã được nhập vào Power BI và xử lý q
 - Chuẩn hoá dữ liệu: Viết hoa chữ cái đầu của tên riêng, xử lý ký tự bị sai như "são paulo" thành "sao paulo" thông qua Replace Value.
 - Tách cột ngày giờ thành cột ngày riêng để thuận tiện cho việc phân tích theo thời gian.
 - Merge bảng "Product_category_name" với bảng "Olist_products" để tạo bảng dữ liệu hoàn chỉnh về sản phẩm. (Chỉ giữ lại 2 cột Product Id và Product Category Name in English trong bảng này, bỏ các cột không liên quan đi, ví dụ: Product Name Length,...)
-- Loại bỏ bản ghi trùng lặp và cột dư thừa không cần thiết.
+- Loại bỏ bản ghi trùng lặp và cột dư thừa không cần thiết tại các bảng.
 
 ## Data Modelling
 Dữ liệu được chuẩn hóa và xây dựng theo mô hình Star Schema, bao gồm:
-- 1 bảng Fact chính: Olist_order_items chứa dữ liệu chi tiết nhất về đơn hàng và các chỉ số có thể tổng hợp.
-- 1 bảng Fact phụ (Factless): Olist_orders chứa thông tin ngày tháng và khóa ngoại làm cầu nối giữa các bảng mà không có chỉ số đo lường cụ thể.
+- 1 bảng Fact chính: Olist_order_items chứa dữ liệu chi tiết nhất về đơn hàng.
+- 1 bảng Fact phụ: Olist_orders chứa thông tin ngày tháng và khóa ngoại làm cầu nối giữa các bảng mà không có chỉ số đo lường cụ thể.
 - 6 bảng Dimension: Olist_customers, Olist_geolocation, Olist_order_payments, Olist_order_reviews, Olist_products, Olist_sellers mô tả chi tiết khách hàng, sản phẩm, người bán, đánh giá và thanh toán.
 - Bảng Date: Tạo bằng query sau:
 
@@ -164,6 +164,7 @@ Dữ liệu cho thấy tổng số người bán đạt **3.095**, với xu hư�
 <img width="546" alt="Ảnh màn hình 2025-03-19 lúc 09 42 26" src="https://github.com/user-attachments/assets/4c84f5d6-271b-41dd-8050-27d2f96edb29" />
 
 #### 2. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
+
 <img width="322" alt="Ảnh màn hình 2025-03-19 lúc 09 15 02" src="https://github.com/user-attachments/assets/603c170e-5b38-451b-8e76-3fa0dea830a4" />
 
 Dựa trên biểu đồ, Sao Paulo dẫn đầu về số lượng đơn hàng cho thấy đây là thị trường trọng điểm cần tập trung khai thác. Thẻ tín dụng chiếm ưu thế vượt trội trong các phương thức thanh toán, đặc biệt ở các thành phố lớn như Sao Paulo và Rio de Janeiro, phản ánh xu hướng tiêu dùng linh hoạt tại các thành phố lớn. Doanh nghiệp nên tận dụng bằng cách triển khai ưu đãi khi thanh toán qua thẻ tín dụng để thúc đẩy doanh số.
