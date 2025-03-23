@@ -139,9 +139,10 @@ Giá trị một đơn hàng trung bình của Olist là **R$ 159.85**, và đư
 
 ```dax
 Average Order Value = 
-                  DIVIDE ([Total Revenue], 
-                      CALCULATE(COUNTROWS('olist_orders_dataset'), 
-                         olist_orders_dataset[order_status] IN {"delivered"})
+AVERAGEX(
+    ALLSELECTED(olist_orders_dataset[order_id]), 
+    [Total Revenue]
+)
 ```
 
 
