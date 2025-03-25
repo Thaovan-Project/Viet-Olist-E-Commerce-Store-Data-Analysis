@@ -161,7 +161,7 @@ Biểu đồ bên dưới cho thấy danh mục **sports_leisure (thể thao & g
 
 ### Hiệu suất Người bán và Trải nghiệm/ Hành vi Khách hàng
 #### 1. Có bao nhiêu người bán đang hoạt động trên Olist? Con số này thay đổi ra sao theo thời gian?
-Dữ liệu cho thấy tổng số người bán đạt **3.095**, với xu hướng tăng trưởng mạnh từ **Q3 2016** đến **Q2 2018**. Cụ thể, số lượng người bán tăng đều qua các quý, từ gần như **0K ở Q3 2016** lên **1.7K ở Q2 2018**, chứng tỏ nền tảng thu hút ngày càng nhiều người bán tham gia. Tuy nhiên, đến **Q3 2018**, số lượng người bán giảm nhẹ còn **1.6K**, cho thấy có thể có yếu tố ảnh hưởng như cạnh tranh gia tăng, chính sách thay đổi hoặc thị trường bão hòa. Để duy trì và phát triển hệ sinh thái, nền tảng cần phân tích nguyên nhân giảm và đưa ra chiến lược thu hút cũng như giữ chân người bán hiệu quả hơn.
+Dữ liệu cho thấy tổng số người bán đạt **3.095**, với xu hướng tăng trưởng mạnh từ 2016-2018. Cụ thể, số lượng người bán tăng đều qua các quý, từ gần như **0K ở Q3 2016** lên **1.7K ở Q2 2018**, chứng tỏ nền tảng thu hút ngày càng nhiều người bán tham gia. Tuy nhiên, đến **Q3 2018**, số lượng người bán giảm nhẹ còn **1.6K**, cho thấy có thể có yếu tố ảnh hưởng như cạnh tranh gia tăng, chính sách thay đổi hoặc thị trường bão hòa. Để duy trì và phát triển hệ sinh thái, nền tảng cần phân tích nguyên nhân giảm và đưa ra chiến lược thu hút cũng như giữ chân người bán hiệu quả hơn.
 
 <img width="546" alt="Ảnh màn hình 2025-03-19 lúc 09 42 26" src="https://github.com/user-attachments/assets/4c84f5d6-271b-41dd-8050-27d2f96edb29" />
 
