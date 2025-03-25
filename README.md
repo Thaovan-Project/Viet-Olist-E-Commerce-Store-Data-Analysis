@@ -287,10 +287,20 @@ Tóm lại, doanh nghiệp nên tập trung tối ưu tốc độ giao hàng đ�
 
 Biểu đồ cho thấy danh mục *security_and_services* có điểm đánh giá trung bình thấp nhất (**2.50**), cho thấy khách hàng không hài lòng với chất lượng dịch vụ này, có thể do tốc độ phản hồi chậm, giao hàng chậm hoặc sản phẩm dịch vụ không đáp ứng kỳ vọng của khách hàng. Trong khi đó, các danh mục còn lại có điểm đánh giá trung bình dao động từ **3.62 đến 3.93**, phản ánh mức độ hài lòng của khách hàng khá ổn định strong khoảng 3 - 4 điểm, nhưng vẫn cần cải thiện để đạt mức đánh giá tuyệt đối. Cần lưu ý rằng, có một mục "(Blank)" với điểm đánh giá **3.90**, có thể do dữ liệu chưa được gán đúng danh mục sản phẩm, gây ảnh hưởng đến tính chính xác của báo cáo. Để cải thiện, cần phân tích kỹ nguyên nhân khiến *security_and_services* có điểm thấp, kết hợp thu thập phản hồi chi tiết từ khách hàng để nâng cao trải nghiệm mua hàng, đồng thời kiểm tra và xử lý dữ liệu trống để đảm bảo độ chính xác trong đánh giá.
 
-## Insight
+## Insight nổi bật
+- Tổng doanh thu cao & có xu hướng tăng, đặc biệt vào Black Friday/ hoặc các chương trình khuyến mãi ngắn hạn theo mùa, cho thấy sức mua tăng mạnh vào mùa cao điểm. 
+- Một số danh mục có giá trị đơn hàng trung bình (AOV) cao đóng góp lớn vào doanh thu có thể tập trung upsell.
+- Tỷ lệ hủy đơn thấp nhưng có xu hướng tăng vào một số giai đoạn. Một số danh mục bị hủy nhiều có thể do chất lượng hoặc thời gian giao hàng.
+- Thanh toán chủ yếu bằng thẻ tín dụng & boleto (truyền thống).
+- Thời gian giao hàng trung bình 12 ngày, trong đó 25% đơn bị giao trễ, giao hàng nhanh chóng có thể cải thiện đáng kể trải nghiệm & đánh giá của khách hàng.
+- São Paulo là thị trường trọng điểm với doanh thu và số đơn hàng cao nhất do vậy nên tập trung các ưu đãi và cải thiện logistics tại khu vực này.
 
 ## Đề xuất
+- Tăng trưởng doanh thu bằng cách tập trung vào danh mục có doanh thu cao (như bed_bath_table, health_beauty,..) và mở rộng thị phần tại các thành phố có doanh thu lớn như São Paulo. Triển khai chương trình giảm giá theo quý/mùa/đợt để kích thích nhu cầu mua sắm của khách hàng
+- Đảm bảo nguồn cung ổn định, kiểm soát chất lượng sản phẩm, và điều chỉnh giá hợp lý để giảm tỷ lệ hủy đơn, tăng sự hài lòng của khách hàng.
+- Tối ưu phương thức thanh toán cũng như khuyến khích thanh toán qua thẻ tín dụng (phổ biến nhất) bằng các chương trình giảm giá hoặc ưu đãi hoàn tiền.
+- Tăng số lượng khách hàng trung thành bằng cách xây dựng chương trình ưu đãi cho khách hàng cũ (ví dụ như chương trình khách hàng thân thiết) để tăng số lượng đơn hàng mua lại, đặc biệt tại các khu vực có nhiều khách hàng.
 
 ## Kết luận
-
+Olist là một nền tảng thương mại điện tử có doanh thu cao và đang tăng trưởng tốt, đặc biệt khi có các đợt khuyến mãi lớn. Tuy nhiên, vẫn còn tiềm năng tối ưu hóa để tăng lợi nhuận và mở rộng thị trường thông qua tối ưu hoá thời gian giao hàng, trải nghiệm khách hàng và các danh mục sản phẩm. 
 
