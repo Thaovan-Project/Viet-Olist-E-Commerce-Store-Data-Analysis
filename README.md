@@ -155,7 +155,7 @@ Tổng cộng có 625 đơn hàng bị hủy trong giai đoạn 2016-2018. Biể
 
 ![Ảnh chụp màn hình 2025-03-19 220307](https://github.com/user-attachments/assets/52dab1a9-6740-45bf-921a-5d63d7470ac6)
 
-Biểu đồ bên dưới cho thấy danh mục **sports_leisure (thể thao & giải trí)** có số lượng đơn hủy cao nhất (47 đơn), tiếp theo là **housewares (đồ gia dụng - 37 đơn)** và **health_beauty (sức khỏe & làm đẹp - 36 đơn)**. Đây có thể là những nhóm sản phẩm có nhu cầu cao nhưng cũng dễ bị hủy do thay đổi quyết định của khách hàng hoặc vấn đề về chất lượng, giá cả. Ngoài ra, các danh mục như **computers_accessories (máy tính & phụ kiện - 35 đơn) và toys (đồ chơi - 31 đơn)** cũng có tỷ lệ hủy đáng kể, có thể liên quan đến thời gian giao hàng hoặc sự thay đổi ưu tiên của khách hàng. Để tối ưu, cần tìm hiểu nguyên nhân hủy đơn ở các danh mục có tỷ lệ cao, đặc biệt với sports_leisure và housewares, nhằm điều chỉnh chiến lược bán hàng, chính sách đổi trả hoặc kiểm soát chất lượng sản phẩm.
+Biểu đồ bên dưới cho thấy danh mục **sports_leisure (thể thao & giải trí)** có số lượng đơn hủy cao nhất (47 đơn), tiếp theo là **housewares (đồ gia dụng - 37 đơn)** và **health_beauty (sức khỏe & làm đẹp - 36 đơn)**. Đây có thể là những nhóm sản phẩm có nhu cầu cao nhưng cũng dễ bị hủy do thay đổi quyết định của khách hàng hoặc vấn đề về chất lượng, giá cả. Để tối ưu, cần tìm hiểu nguyên nhân hủy đơn ở các danh mục có tỷ lệ huỷ cao, đặc biệt với sports_leisure và housewares, từ đó nhằm điều chỉnh chiến lược bán hàng, chính sách đổi trả hoặc kiểm soát chất lượng sản phẩm.
 
 ![Ảnh chụp màn hình 2025-03-19 223836](https://github.com/user-attachments/assets/edf725ee-5aa1-4a22-a3c6-d157341d7a55)
 
