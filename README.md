@@ -23,7 +23,7 @@ Mục tiêu của dự án là cung cấp những insight giá trị giúp tối
 ### Hiệu suất Bán hàng và Doanh thu
 1. Tổng doanh thu của Olist là bao nhiêu? Doanh thu thay đổi như thế nào theo thời gian? Có giai đoạn nào đột biến hay suy giảm rõ rệt không?
 2. Số lượng đơn hàng được đặt trên Olist mỗi tháng? Có biến động theo mùa hay xu hướng nào đáng chú ý không?
-3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng so sánh như thế nào? Có danh mục nào tiềm năng nhưng chưa được khai thác triệt để không?
+3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng như thế nào? Có danh mục sản phẩm nào tiềm năng nhưng chưa được khai thác triệt để không?
 4. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
 5. Tỉ lệ hủy đơn trung bình là bao nhiêu? Danh mục sản phẩm nào có nhiều đơn hủy nhất?
 
@@ -127,8 +127,7 @@ CALCULATE(
 
 Nhìn chung thì xu hướng phát sinh đơn hàng theo thời gian sẽ tỷ lệ thuận và không có biến đổi đáng kể so với biểu đồ xu hướng của doanh thu đã được nêu ở trên.
 
-#### 3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng so sánh như thế nào? Có danh mục nào tiềm năng nhưng chưa được khai thác triệt để không?
-
+#### 3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng như thế nào? Có danh mục sản phẩm nào tiềm năng nhưng chưa được khai thác triệt để không?
 Biểu đồ cho thấy sự so sánh giữa số lượng đơn hàng và tổng doanh thu theo danh mục sản phẩm. Một số danh mục như *bed_bath_table* và *health_beauty* có số lượng đơn cao trong top đầu nhưng doanh thu lại không tương ứng, cho thấy giá trị trung bình mỗi đơn thấp. Ngược lại, các danh mục như *watches_gifts* và *cool_stuff* có doanh thu cao dù có số lượng đơn ít hơn, cho thấy đây là các sản phẩm có giá trị cao. Như vậy, để tối ưu danh mục có đơn hàng cao nhưng doanh thu thấp, Olist có thể cân nhắc tập trung tăng giá trị trung bình mỗi đơn thông qua chiến lược upsell/crosssell. Đồng thời, với các danh mục có doanh thu cao nhưng số lượng đơn ít, nên đẩy mạnh marketing để thu hút thêm khách hàng từ đó cân bằng giữa số lượng đơn hàng và tổng doanh thu.
 
 ![Ảnh chụp màn hình 2025-03-18 230134](https://github.com/user-attachments/assets/68bf9239-a7e6-48c4-ac2b-89e56474a954)
