@@ -82,7 +82,7 @@ AVERAGEX(
 ```
 
 
-Biểu đồ cho thấy *computers* có giá trị đơn hàng trung bình cao nhất **(R$ 1.300,8)**, và cao gần gấp đôi so với danh mục đứng thứ hai (*small_appliances* – R$ 684,3), cho thấy đây là mặt hàng có giá trị cao và đóng góp lớn vào doanh thu dù số lượng đơn có thể không nhiều. Tuy nhiên, phần lớn các danh mục sản phẩm còn lại có giá trị đơn hàng trung bình dao động từ **R$ 200 - R$ 500**. Do đó, Olist cần cân nhắc đẩy mạnh các danh mục có giá trị đơn hàng cao bằng cách tối ưu trải nghiệm mua sắm và tạo chương trình ưu đãi, đồng thời áp dụng chiến lược bán hàng theo gói/combo hoặc upsell/cross-sell để tăng giá trị đơn hàng ở các danh mục sản phẩm thấp.
+Biểu đồ cho thấy *computers* có giá trị đơn hàng trung bình cao nhất **(R$ 1.300,8)**, và cao gần gấp đôi so với danh mục đứng thứ hai (*small_appliances* – R$ 684,3), cho thấy đây là mặt hàng có giá trị cao và đóng góp lớn vào doanh thu dù số lượng đơn có thể không nhiều. Tuy nhiên, phần lớn các danh mục sản phẩm còn lại có giá trị đơn hàng trung bình dao động từ **R$ 200 - R$ 500**.
 
 ![Ảnh chụp màn hình 2025-03-18 225739](https://github.com/user-attachments/assets/2704741e-9a20-4566-867c-9f30a93133d6)
 
