@@ -93,7 +93,7 @@ Dưới đây là bức ảnh tổng quan về hiệu suất bán hàng và doan
 
 
 #### 1. Tổng doanh thu của Olist là bao nhiêu? Doanh thu thay đổi như thế nào theo thời gian? Có giai đoạn nào đột biến hay suy giảm rõ rệt không?
-Tổng doanh thu của cửa hàng thương mại điện tử Olist từ tháng 9 năm 2016 đến tháng 9 năm 2018 là **R$15.422.461,77**. Con số này được tính bằng cách lấy tổng Payment_value của các đơn hàng có trạng thái "delivered" (vì chỉ khi đơn hàng được giao thành công tới khách hàng thì doanh thu của đơn hàng mới được ghi nhận), sử dụng công thức DAX như bên dưới:
+Tổng doanh thu của cửa hàng thương mại điện tử Olist từ năm 2016 đến năm 2018 là **R$15.422.461,77**. Con số này được tính bằng cách lấy tổng Payment_value của các đơn hàng có trạng thái "delivered" (vì chỉ khi đơn hàng được giao thành công tới khách hàng thì doanh thu của đơn hàng mới được ghi nhận), sử dụng công thức DAX như bên dưới:
 
 ```dax
 Total Revenue = 
@@ -107,7 +107,7 @@ Từ năm 2016 đến 2018, doanh thu của Olist có xu hướng tăng dần qu
 
 ![Ảnh chụp màn hình 2025-03-19 222734](https://github.com/user-attachments/assets/f2aad862-bf7b-46b2-8f6a-c17733ea957b)
 
-Biểu đồ dưới cho thấy doanh thu có sự tăng đột biến vào ngày 24/11/2017, đạt **R$175K**, nhiều khả năng do Black Friday hoặc một chương trình khuyến mãi lớn trong thời gian ngắn. Ngay sau đó, doanh thu giảm mạnh và quay về mức ổn định quanh **R$50K - R$60K**, cho thấy đây chỉ là sự tăng trưởng ngắn hạn. Trừ giai đoạn tăng vọt vào cuối năm 2017 trên, doanh thu thường dao động quanh mức R$50K - R$60K, cho thấy thị trường không có sự tăng trưởng đột phá.  Điều này chỉ ra rằng các chiến dịch khuyến mãi ngắn hạn có thể tạo hiệu ứng tốt trong một khoảng thời gian, nhưng cần có thêm chiến lược giữ chân khách hàng để đảm bảo khả năng tăng trưởng được bền vững.
+Biểu đồ dưới cho thấy doanh thu có sự tăng đột biến vào ngày 24/11/2017, đạt **R$175K**, nhiều khả năng do Black Friday hoặc một chương trình khuyến mãi lớn trong thời gian ngắn. Ngay sau đó, doanh thu giảm mạnh và quay về mức ổn định quanh **R$50K - R$60K**, cho thấy đây chỉ là sự tăng trưởng ngắn hạn. Trừ giai đoạn tăng vọt vào cuối năm 2017 trên, doanh thu thường dao động quanh mức R$50K - R$60K, cho thấy thị trường không có sự tăng trưởng đột phá. Điều này chỉ ra rằng các chiến dịch khuyến mãi ngắn hạn có thể tạo hiệu ứng tốt trong một khoảng thời gian, nhưng cần có thêm chiến lược giữ chân khách hàng để đảm bảo khả năng tăng trưởng được bền vững.
 
 ![Ảnh chụp màn hình 2025-03-18 192717](https://github.com/user-attachments/assets/f4704c02-1cb4-40a9-9945-9c571aec474a)
 
@@ -127,9 +127,11 @@ CALCULATE(
 Nhìn chung thì xu hướng phát sinh đơn hàng theo thời gian sẽ tỷ lệ thuận và không có biến đổi đáng kể so với biểu đồ xu hướng của doanh thu đã được nêu ở trên.
 
 #### 3. Các danh mục sản phẩm phổ biến nhất là gì? Khối lượng bán của chúng như thế nào? Có danh mục sản phẩm nào tiềm năng nhưng chưa được khai thác triệt để không?
-Biểu đồ cho thấy sự so sánh giữa số lượng đơn hàng và tổng doanh thu theo danh mục sản phẩm. Một số danh mục như *bed_bath_table* và *health_beauty* có số lượng đơn cao trong top đầu nhưng doanh thu lại không tương ứng, cho thấy giá trị trung bình mỗi đơn thấp. Ngược lại, các danh mục như *watches_gifts* và *cool_stuff* có doanh thu cao dù có số lượng đơn ít hơn, cho thấy đây là các sản phẩm có giá trị cao. Như vậy, để tối ưu danh mục có đơn hàng cao nhưng doanh thu thấp, Olist có thể cân nhắc tập trung tăng giá trị trung bình mỗi đơn thông qua chiến lược upsell/crosssell. Đồng thời, với các danh mục có doanh thu cao nhưng số lượng đơn ít, nên đẩy mạnh marketing để thu hút thêm khách hàng từ đó cân bằng giữa số lượng đơn hàng và tổng doanh thu.
+Biểu đồ cho thấy các danh mục *bed_bath_table*, *health_beauty* và *sports_leisure* có số lượng đơn hàng cao nhất, phản ánh nhu cầu lớn từ khách hàng. Đồng thời, một số danh mục như *watches_gifts* có doanh thu cao nhưng số lượng đơn hàng không nhiều, cho thấy giá trị sản phẩm trong danh mục này cao hơn mức trung bình. Ngược lại, các danh mục như *toys* và *cool_stuff* có số lượng đơn hàng lớn nhưng doanh thu thấp, có thể do giá trị trung bình mỗi đơn hàng thấp hoặc khách hàng mua hàng với số lượng nhỏ. Một số danh mục cuối bảng như *home_appliances* có cả doanh thu lẫn số lượng đơn hàng thấp, đặt ra câu hỏi về mức độ cạnh tranh và nhu cầu thực tế của khách hàng.  
 
 ![Ảnh chụp màn hình 2025-03-18 230134](https://github.com/user-attachments/assets/68bf9239-a7e6-48c4-ac2b-89e56474a954)
+
+Để tối ưu hiệu suất, Olist nên tăng cường quảng bá các danh mục có nhu cầu cao, đồng thời áp dụng chiến lược upsell và cross-sell cho các danh mục có giá trị đơn hàng cao nhưng số đơn ít. Với các danh mục có số đơn hàng lớn nhưng doanh thu chưa tối ưu, có thể cân nhắc việc triển khai combo sản phẩm và chương trình giảm giá khi mua số lượng nhiều sẽ giúp cải thiện giá trị trung bình mỗi đơn hàng. Và cuối cùng, cần đánh giá lại danh mục có hiệu suất thấp nhằm xác định nguyên nhân để điều chỉnh lại chiến lược bán hoặc loại bỏ khỏi danh mục kinh doanh nếu cần thiết.
 
 #### 4. Giá trị đơn hàng trung bình (AOV) là bao nhiêu? Có danh mục nào mang lại giá trị đơn hàng cao vượt trội?
 Giá trị một đơn hàng trung bình của Olist là **R$ 159.85**, và được tính theo công thức dưới đây:
