@@ -88,7 +88,7 @@ Olist_geolocation kết nối với Olist_customers qua zip_code_prefix
 
 ## Data Analysis & Reporting
 ### Hiệu suất Bán hàng và Doanh thu
-Dưới đây là bức ảnh tổng quan về hiệu suất bán hàng và doanh thu của Olist trong giai đoạn 2016-2019:
+Dưới đây là bức ảnh tổng quan về hiệu suất bán hàng và doanh thu của Olist trong giai đoạn 2016-2018:
 
 ![Ảnh chụp màn hình 2025-03-26 212300](https://github.com/user-attachments/assets/41e3273d-c31a-4770-a386-0baec3dad645)
 
