@@ -50,8 +50,8 @@ Dữ liệu sau khi tải về đã được nhập vào Power BI và xử lý q
 
 ## Data Modelling
 Dữ liệu được chuẩn hóa và xây dựng theo mô hình Star Schema, bao gồm:
-- 1 bảng Fact chính: Olist_order_items chứa dữ liệu chi tiết nhất về đơn hàng.
-- 1 bảng Fact phụ: Olist_orders chứa thông tin ngày tháng và khóa ngoại làm cầu nối giữa các bảng.
+- 1 bảng Fact chính: Olist_order_items chứa thông tin từng sản phẩm trong mỗi đơn hàng, là bảng giao dịch chi tiết nhất. 
+- 1 bảng Fact phụ: Olist_orders chứa thông tin tổng quan về đơn hàng bao gồm trạng thái đơn, thời gian đặt hàng, thời gian giao hàng thực tế/dự kiến.
 - 6 bảng Dimension: Olist_customers, Olist_geolocation, Olist_order_payments, Olist_order_reviews, Olist_products, Olist_sellers mô tả chi tiết khách hàng, sản phẩm, người bán, đánh giá và thanh toán.
 - Bảng Date: Tạo bằng query sau:
 
