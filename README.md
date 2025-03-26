@@ -90,7 +90,8 @@ Olist_geolocation kết nối với Olist_customers qua zip_code_prefix
 ### Hiệu suất Bán hàng và Doanh thu
 Dưới đây là bức ảnh tổng quan về hiệu suất bán hàng và doanh thu của Olist trong giai đoạn 2016-2019:
 
-![Ảnh chụp màn hình 2025-03-19 220729](https://github.com/user-attachments/assets/8882e6c0-4bf5-406e-bb31-fca09fcdd66b)
+![Ảnh chụp màn hình 2025-03-26 212300](https://github.com/user-attachments/assets/41e3273d-c31a-4770-a386-0baec3dad645)
+
 
 #### 1. Tổng doanh thu của Olist là bao nhiêu? Doanh thu thay đổi như thế nào theo thời gian? Có giai đoạn nào đột biến hay suy giảm rõ rệt không?
 Tổng doanh thu của cửa hàng thương mại điện tử Olist từ tháng 9 năm 2016 đến tháng 9 năm 2018 là **R$15.422.461,77**. Con số này được tính bằng cách lấy tổng Payment_value của các đơn hàng có trạng thái "delivered" (vì chỉ khi đơn hàng được giao thành công tới khách hàng thì doanh thu của đơn hàng mới được ghi nhận), sử dụng công thức DAX như bên dưới:
