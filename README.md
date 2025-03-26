@@ -29,12 +29,11 @@ Mục tiêu của dự án là cung cấp những insight giá trị giúp tối
 
 ### Hiệu suất người bán và hành vi/ trải nghiệm khách hàng
 1. Có bao nhiêu người bán đang hoạt động trên Olist? Con số này thay đổi ra sao theo thời gian?
-2. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
+2. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý?
 3. Có bao nhiêu khách hàng quay lại mua sắm? Họ chiếm bao nhiêu phần trăm tổng doanh thu? Và họ quay lại mua sắm danh mục sản phẩm nào nhiều nhất?
 4. Tình trạng giao hàng đang như thế nào? Các đơn hàng giao đúng hẹn chiếm bao nhiêu phần trăm?
 5. Đánh giá trung bình của khách hàng là bao nhiêu? Có mối liên hệ nào giữa điểm đánh giá và thời gian giao hàng không?
 6. Có danh mục sản phẩm nào có điểm đánh giá đáng chú ý không?
-   
 
 ## Data Cleaning sử dụng Power Query
 Dữ liệu sau khi tải về đã được nhập vào Power BI và xử lý qua Power Query như sau:
@@ -165,7 +164,7 @@ Dữ liệu cho thấy tổng số người bán đạt **3.095**, với xu hư�
 
 <img width="546" alt="Ảnh màn hình 2025-03-19 lúc 09 42 26" src="https://github.com/user-attachments/assets/4c84f5d6-271b-41dd-8050-27d2f96edb29" />
 
-#### 2. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý? Phương thức nào phổ biến nhưng lại có giá trị đơn hàng trung bình thấp?
+#### 2. Phương thức thanh toán nào được khách hàng sử dụng nhiều nhất? Điều này thay đổi như thế nào theo từng danh mục sản phẩm và khu vực địa lý?
 
 <img width="322" alt="Ảnh màn hình 2025-03-19 lúc 09 15 02" src="https://github.com/user-attachments/assets/603c170e-5b38-451b-8e76-3fa0dea830a4" />
 
