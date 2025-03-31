@@ -42,7 +42,7 @@ Dữ liệu sau khi tải về đã được nhập vào Power BI và xử lý q
 - Chuyển hàng đầu tiên thành tiêu đề cột cho các bảng chưa đúng định dạng. (Use First row as Header)
 - Kiểm tra và chỉnh sửa định dạng dữ liệu cho từng cột.
 - Chuyển đổi cột chứa giá trị tiền tệ (giá sản phẩm, giá thanh toán...) sang định dạng Fixed Decimal.
-- Chuẩn hoá dữ liệu: Viết hoa chữ cái đầu của tên riêng, xử lý ký tự bị sai như "São Paulo" thành "são paulo" thông qua Replace Value.
+- Chuẩn hoá dữ liệu: Viết hoa chữ cái đầu của tên riêng, xử lý ký tự bị sai như "Sao Paulo" thành "São Paulo" thông qua Replace Value.
 - Tách cột ngày giờ thành cột ngày riêng để thuận tiện cho việc phân tích theo thời gian.
 - Merge bảng "Product_category_name" với bảng "Olist_products" để tạo bảng dữ liệu hoàn chỉnh về sản phẩm. (Chỉ giữ lại 2 cột Product Id và Product Category Name in English trong bảng này, bỏ các cột không liên quan đi, ví dụ: Product Name Length,...)
 - Loại bỏ bản ghi trùng lặp và cột dư thừa không cần thiết tại các bảng.
