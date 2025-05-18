@@ -3,6 +3,10 @@
 ## Giới thiệu
 Dự án này phân tích bộ dữ liệu công khai từ Olist - một nền tảng thương mại điện tử của Brazil nhằm mục đích rút ra những insight về tình hình kinh doanh, hiệu suất bán hàng, hành vi khách hàng, hiệu suất người bán, và quy trình giao hàng của nền tảng này giai đoạn 2016-2018.
 
+![Ảnh chụp màn hình 2025-05-18 223657](https://github.com/user-attachments/assets/2997f4a2-399e-4a6d-bdf2-88ced9c57703)
+![Ảnh chụp màn hình 2025-05-18 223721](https://github.com/user-attachments/assets/8a49b818-423e-486c-8486-44ce5c0d8ec7)
+![Ảnh chụp màn hình 2025-05-18 223733](https://github.com/user-attachments/assets/f47ce93a-f049-4516-8074-fe696e55d986)
+
 ## Về bộ dữ liệu
 Dữ liệu thô được được public và lấy từ Kaggle, bao gồm 9 bảng dưới đây: 
 - Olist_customers
